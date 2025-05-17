@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2c69da158361221028f0e5d0deaad33f" label="Dimensao" max_length="40" name="x_1488662_gal2_dimensao" text_index="true" type="collection">
+        <element display="true" label="COD Dimensao" max_length="40" name="cod_dimensao" type="string"/>
+        <element label="Descricao" max_length="40" name="descricao" type="string"/>
+        <element label="VFMDI" max_length="40" name="vfmdi" type="float"/>
+        <element label="Alavanca" max_length="32" name="alavanca" reference="x_1488662_gal2_alavanca" type="reference"/>
+        <index name="index">
+            <element name="alavanca"/>
+        </index>
+    </element>
+</database>

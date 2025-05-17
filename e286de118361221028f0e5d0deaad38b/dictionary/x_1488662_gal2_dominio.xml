@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="186b56d58361221028f0e5d0deaad3df" label="Dominio" max_length="40" name="x_1488662_gal2_dominio" text_index="true" type="collection">
+        <element label="Dimensao" max_length="32" name="dimensao" reference="x_1488662_gal2_dimensao" type="reference"/>
+        <element label="VFMDO" max_length="40" name="vfmdo" type="float"/>
+        <element label="Alavanca" max_length="32" name="alavanca" reference="x_1488662_gal2_alavanca" type="reference"/>
+        <element display="true" label="COD Dominio" max_length="40" name="cod_dominio" type="string"/>
+        <element label="VFMDO target" max_length="40" name="vfmdo_target" type="float"/>
+        <index name="index">
+            <element name="alavanca"/>
+        </index>
+        <index name="index2">
+            <element name="dimensao"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1afe121d8361221028f0e5d0deaad3f7" label="Bullet" max_length="40" name="x_1488662_gal2_bullet" text_index="true" type="collection">
+        <element choice="1" label="Concluido?" max_length="40" name="concluido" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sim" sequence="100" value="S"/>
+                <element inactive_on_update="false" label="Não" sequence="200" value="N"/>
+            </choice>
+        </element>
+        <element dependent="alavanca" dependent_on_field="alavanca" label="Dimensao" max_length="32" name="dimensao" reference="x_1488662_gal2_dimensao" type="reference" use_dependent_field="true"/>
+        <element label="Alavanca" max_length="32" name="alavanca" reference="x_1488662_gal2_alavanca" type="reference"/>
+        <element label="Peso" max_length="40" name="peso" type="float"/>
+        <element display="true" label="COD Bullet" max_length="40" name="cod_bullet" type="string"/>
+        <element dependent="dimensao" dependent_on_field="dimensao" label="Dominio" max_length="32" name="dominio" reference="x_1488662_gal2_dominio" type="reference" use_dependent_field="true"/>
+        <index name="index">
+            <element name="alavanca"/>
+        </index>
+        <index name="index2">
+            <element name="dimensao"/>
+        </index>
+        <index name="index3">
+            <element name="dominio"/>
+        </index>
+    </element>
+</database>
