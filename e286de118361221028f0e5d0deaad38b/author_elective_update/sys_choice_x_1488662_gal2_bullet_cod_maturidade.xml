@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="cod_maturidade" table="x_1488662_gal2_bullet" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>cod_maturidade</element>
+            <name>x_1488662_gal2_bullet</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-17 16:37:22</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cod_maturidade</sys_name>
+            <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+            <sys_update_name>sys_choice_x_1488662_gal2_bullet_cod_maturidade</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-17 16:37:22</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cod_maturidade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inicial</label>
+            <language>en</language>
+            <name>x_1488662_gal2_bullet</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-17 16:37:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-17 16:37:22</sys_updated_on>
+            <value>Inicial</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cod_maturidade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Moderado</label>
+            <language>en</language>
+            <name>x_1488662_gal2_bullet</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-17 16:37:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-17 16:37:45</sys_updated_on>
+            <value>Moderado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cod_maturidade</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Avançado</label>
+            <language>en</language>
+            <name>x_1488662_gal2_bullet</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-17 16:38:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-17 16:38:11</sys_updated_on>
+            <value>avancado</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

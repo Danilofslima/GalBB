@@ -6,6 +6,13 @@
                 <element inactive_on_update="false" label="Não" sequence="200" value="N"/>
             </choice>
         </element>
+        <element choice="1" label="COD Maturidade" max_length="40" name="cod_maturidade" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Moderado" sequence="200" value="Moderado"/>
+                <element inactive_on_update="false" label="Avançado" sequence="300" value="avancado"/>
+                <element inactive_on_update="false" label="Inicial" sequence="100" value="Inicial"/>
+            </choice>
+        </element>
         <element dependent="alavanca" dependent_on_field="alavanca" label="Dimensao" max_length="32" name="dimensao" reference="x_1488662_gal2_dimensao" type="reference" use_dependent_field="true"/>
         <element label="Alavanca" max_length="32" name="alavanca" reference="x_1488662_gal2_alavanca" type="reference"/>
         <element label="Peso" max_length="40" name="peso" type="float"/>
