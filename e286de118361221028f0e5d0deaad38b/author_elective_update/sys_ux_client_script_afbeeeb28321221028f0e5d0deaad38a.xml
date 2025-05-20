@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Gal Simple List copy">9384098683a1a21028f0e5d0deaad3d8</macroponent>
+        <name>label_value_2/value</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return api.item.value.alavanca.displayValue;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-20 12:18:35</sys_created_on>
+        <sys_id>afbeeeb28321221028f0e5d0deaad38a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>label_value_2/value</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_update_name>sys_ux_client_script_afbeeeb28321221028f0e5d0deaad38a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-20 12:20:57</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GAL2">e286de118361221028f0e5d0deaad38b</application>
+        <file_path/>
+        <instance_id>d91a66fd3ba056d4677f04e0b5e45aab</instance_id>
+        <instance_name>dev288455</instance_name>
+        <name>sys_ux_client_script_afbeeeb28321221028f0e5d0deaad38a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Gal Simple List copy"&gt;9384098683a1a21028f0e5d0deaad3d8&lt;/macroponent&gt;&lt;name&gt;label_value_2/value&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return api.item.value.alavanca.displayValue;
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-20 12:18:35&lt;/sys_created_on&gt;&lt;sys_id&gt;afbeeeb28321221028f0e5d0deaad38a&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;label_value_2/value&lt;/sys_name&gt;&lt;sys_package display_value="GAL2" source="x_1488662_gal2"&gt;e286de118361221028f0e5d0deaad38b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GAL2"&gt;e286de118361221028f0e5d0deaad38b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_afbeeeb28321221028f0e5d0deaad38a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-20 12:20:57&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>401800551</payload_hash>
+        <record_name>label_value_2/value</record_name>
+        <reverted_from/>
+        <source>07231bbd8329621028f0e5d0deaad370</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-20 12:20:58</sys_created_on>
+        <sys_id>22013af68321221028f0e5d0deaad338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196eda3d06c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-20 12:20:58</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>a6013af62e212210a396f4708c170d37</update_guid>
+        <update_guid_history>a6013af62e212210a396f4708c170d37:401800551,9ba032b637212210df707add0e2cce6b:1644413765,3b70feb655212210b98bc81c10eb88e9:501965150</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-20 12:28:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>01875e063a2c44ba958e72141400e071</sys_id>
+        <sys_metadata>afbeeeb28321221028f0e5d0deaad38a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>label_value_2/value</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_scope_delete display_value="">0ed54e15a6bc4d20818b77f6d988e400</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_afbeeeb28321221028f0e5d0deaad38a</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_afbeeeb28321221028f0e5d0deaad38a">22013af68321221028f0e5d0deaad338</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-20 12:28:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
