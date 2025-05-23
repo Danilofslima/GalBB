@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New Simulacao</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Simulacao</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">bd75906b5c2312104f3496f8659cf68a</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-22 21:08:00</sys_created_on>
+        <sys_id>5edc32ab83a9221028f0e5d0deaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Simulacao</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_update_name>sys_wizard_answer_5edc32ab83a9221028f0e5d0deaad3cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-22 21:08:00</sys_updated_on>
+        <table/>
+        <target_url>x_1488662_gal2_simulacao.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

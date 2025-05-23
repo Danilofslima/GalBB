@@ -5,28 +5,41 @@
         "activityLogs": null,
         "detailsContext": null,
         "fields": null,
-        "inputSysId": "13c16e9d8361221028f0e5d0deaad32c",
-        "inputTable": "x_1488662_gal2_bullet",
-        "isMappedToAppShell": true,
+        "forcedViewName": null,
+        "inputExtraParams": null,
+        "inputQuery": null,
+        "inputSysId": "",
+        "inputTable": "incident",
         "screen": null,
-        "shouldSuppressGlobalEvents": true,
+        "selectedTabIndex": 0,
         "userPrefs": null,
         "view": "workspace-gal2-0"
     },
-    "table": "x_1488662_gal2_bullet"
+    "table": "x_1488662_gal2_bullet",
+    "b47c9480075111106670d9630ad300fe": {
+        "inputActivityView": "focused",
+        "inputParentSysId": "-1",
+        "inputParentTable": "incident",
+        "inputPlaybookExperience": null,
+        "inputRecordGeneratorQuery": null,
+        "inputSelectedActivityContextId": null,
+        "inputSelectedPlaybookContextId": null,
+        "inputSelectedStageContextId": null
+    },
+    "query": ""
 }</macroponent_config>
         <screen display_value="Gal Simple List copy">ef844d8683a1a21028f0e5d0deaad33c</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-17 20:31:32</sys_created_on>
         <sys_id>af844d8683a1a21028f0e5d0deaad341</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
         <sys_policy/>
         <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_af844d8683a1a21028f0e5d0deaad341</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-17 20:36:19</sys_updated_on>
+        <sys_updated_on>2025-05-21 01:47:16</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>

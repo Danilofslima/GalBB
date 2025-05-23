@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="dadc32ab83a9221028f0e5d0deaad398" extends="task" label="Simulacao" max_length="40" name="x_1488662_gal2_simulacao" type="collection">
+        <element label="listaEditado" max_length="1500" name="listaeditado" type="string"/>
+    </element>
+</database>

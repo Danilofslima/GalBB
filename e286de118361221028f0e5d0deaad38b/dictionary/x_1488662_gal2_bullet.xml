@@ -16,6 +16,7 @@
         <element dependent="alavanca" dependent_on_field="alavanca" label="Dimensao" max_length="32" name="dimensao" reference="x_1488662_gal2_dimensao" type="reference" use_dependent_field="true"/>
         <element label="Alavanca" max_length="32" name="alavanca" reference="x_1488662_gal2_alavanca" type="reference"/>
         <element label="Peso" max_length="40" name="peso" type="float"/>
+        <element label="comentario" max_length="1500" name="comentario" type="string"/>
         <element display="true" label="COD Bullet" max_length="40" name="cod_bullet" type="string"/>
         <element dependent="dimensao" dependent_on_field="dimensao" label="Dominio" max_length="32" name="dominio" reference="x_1488662_gal2_dominio" type="reference" use_dependent_field="true"/>
         <index name="index">
