@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b8ed344483f5a21028f0e5d0deaad321" sys_domain="global" table="x_1488662_gal2_alavanca" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-24 01:10:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ded344483f5a21028f0e5d0deaad325</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1488662_gal2_alavanca" name="x_1488662_gal2_alavanca" sys_domain="global" view="04520725466522100e0ca3b7b89846f3">b8ed344483f5a21028f0e5d0deaad321</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1488662_gal2_alavanca" sys_domain="global" view="04520725466522100e0ca3b7b89846f3">f7528b258365221028f0e5d0deaad395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-24 01:10:16</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1488662_gal2_alavanca</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-24 01:10:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b8ed344483f5a21028f0e5d0deaad321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1488662_gal2_alavanca</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b8ed344483f5a21028f0e5d0deaad321</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-24 01:10:16</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace GAL2 0" name="workspace-gal2-0">04520725466522100e0ca3b7b89846f3</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

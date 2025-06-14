@@ -2,14 +2,14 @@
     <par_dashboard_canvas action="INSERT_OR_UPDATE">
         <dashboard display_value="Painel Gerencial">e1627b71832d621028f0e5d0deaad33e</dashboard>
         <dashboard_tab/>
-        <layout>[]</layout>
+        <layout>[{"sys_id":"2f54000a836d621028f0e5d0deaad329","x":25,"y":0,"w":6,"h":4,"component_id":"226449101138d0dff1abe0e1566c8b2a","component_props":"{\"filterId\":\"1irff0g10odmsqo35gh8\",\"filterName\":\"Alavanca\",\"filterComponentType\":\"singleselect\",\"datasource\":{\"type\":\"table\",\"payload\":{\"table\":\"x_1488662_gal2_alavanca\",\"primaryKey\":\"sys_id\"}},\"targets\":[{\"type\":\"table\",\"payload\":{\"field\":\"alavanca\",\"table\":\"x_1488662_gal2_bullet\",\"primaryKey\":\"sys_id\"}}],\"defaultSelectedItems\":[{\"id\":\"76d8ded18361221028f0e5d0deaad34e\",\"label\":\"Dev SecOps \",\"available\":true,\"unknown\":false,\"empty\":false}],\"cascadingConfig\":{\"filtersFollowing\":[],\"filterM2MConfigurations\":[]},\"defaultSelectedDateRange\":{\"range\":\"\"},\"dateFilterView\":\"calendar-reldates\",\"sort\":\"ASC\",\"filterElementType\":\"pill\",\"isShowSelectedValueInPill\":true,\"filterElementLayout\":\"vertical\",\"enableClearFilter\":true,\"primaryActionLabel\":\"Apply\",\"maxElements\":500,\"filterConfigurations\":\"@state.parFilters\",\"cascadeScope\":\"top_layout\",\"isDashboard\":true,\"id\":\"filterName\",\"value\":\"Alavanca\",\"noDebounce\":true,\"propLabel\":\"Filter label\"}","can_edit":true},{"sys_id":"6ce604ca836d621028f0e5d0deaad3be","x":31,"y":0,"w":6,"h":4,"component_id":"226449101138d0dff1abe0e1566c8b2a","component_props":"{\"filterId\":\"1irffd0n47h1i3n8lj88\",\"filterName\":\"Dimensão\",\"filterComponentType\":\"singleselect\",\"datasource\":{\"type\":\"table\",\"payload\":{\"table\":\"x_1488662_gal2_dimensao\",\"primaryKey\":\"sys_id\"}},\"targets\":[{\"type\":\"table\",\"payload\":{\"field\":\"dimensao\",\"applyToHierarchy\":true,\"table\":\"x_1488662_gal2_bullet\",\"primaryKey\":\"sys_id\"}}],\"defaultSelectedItems\":[],\"cascadingConfig\":{\"filtersFollowing\":[],\"filterM2MConfigurations\":[]},\"defaultSelectedDateRange\":{\"range\":\"\"},\"dateFilterView\":\"calendar-reldates\",\"sort\":\"ASC\",\"filterElementType\":\"pill\",\"isShowSelectedValueInPill\":true,\"filterElementLayout\":\"vertical\",\"enableClearFilter\":true,\"primaryActionLabel\":\"Apply\",\"maxElements\":500,\"filterConfigurations\":\"@state.parFilters\",\"cascadeScope\":\"top_layout\",\"isDashboard\":true,\"id\":\"targets\",\"value\":[{\"type\":\"table\",\"payload\":{\"field\":\"dimensao\",\"applyToHierarchy\":true,\"table\":\"x_1488662_gal2_bullet\",\"primaryKey\":\"sys_id\"}}],\"noDebounce\":true,\"propLabel\":\"Data to filter\"}","can_edit":true},{"sys_id":"ace604ca836d621028f0e5d0deaad3d9","x":38,"y":0,"w":6,"h":4,"component_id":"226449101138d0dff1abe0e1566c8b2a","component_props":"{\"filterId\":\"1irffk1o347topb7gnn\",\"filterName\":\"Dominio\",\"filterComponentType\":\"singleselect\",\"datasource\":{\"type\":\"table\",\"payload\":{\"table\":\"x_1488662_gal2_dominio\",\"primaryKey\":\"sys_id\"}},\"targets\":[{\"type\":\"table\",\"payload\":{\"field\":\"dominio\",\"table\":\"x_1488662_gal2_bullet\",\"primaryKey\":\"sys_id\"}}],\"defaultSelectedItems\":[],\"defaultSelectedDateRange\":{\"range\":\"\"},\"dateFilterView\":\"calendar-reldates\",\"sort\":\"ASC\",\"filterElementType\":\"pill\",\"isShowSelectedValueInPill\":true,\"filterElementLayout\":\"vertical\",\"enableClearFilter\":true,\"primaryActionLabel\":\"Apply\",\"maxElements\":500,\"filterConfigurations\":\"@state.parFilters\",\"cascadeScope\":\"top_layout\",\"isDashboard\":true,\"id\":\"targets\",\"value\":[{\"type\":\"table\",\"payload\":{\"field\":\"dominio\",\"table\":\"x_1488662_gal2_bullet\",\"primaryKey\":\"sys_id\"}}],\"noDebounce\":true,\"propLabel\":\"Data to filter\"}","can_edit":true}]</layout>
         <sys_class_name>par_dashboard_canvas</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-17 14:32:36</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e5623fb1832d621028f0e5d0deaad39f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
@@ -17,6 +17,6 @@
         <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
         <sys_update_name>par_dashboard_canvas_e5623fb1832d621028f0e5d0deaad39f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-17 14:32:36</sys_updated_on>
+        <sys_updated_on>2025-06-06 01:20:08</sys_updated_on>
     </par_dashboard_canvas>
 </record_update>

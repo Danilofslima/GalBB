@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="dadc32ab83a9221028f0e5d0deaad398" extends="task" label="Simulacao" max_length="40" name="x_1488662_gal2_simulacao" type="collection">
+        <element label="SSSSSS" max_length="80" name="ssssss" type="workflow"/>
+        <element label="VFMdim Simulado" max_length="40" name="vfmdim_simulado" type="float"/>
+        <element label="VFMdom Simulado" max_length="40" name="vfmdom_simulado" type="float"/>
+        <element label="VFMdim" max_length="40" name="vfmdim" type="float"/>
+        <element label="VFMdom" max_length="40" name="vfmdom" type="float"/>
+        <element label="VFMa Simulado" max_length="40" name="vfma_simulado" type="float"/>
         <element label="listaEditado" max_length="1500" name="listaeditado" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element label="Clickable" max_length="1024" name="clickable" type="url"/>
+        <element label="COD Bullet" max_length="32" name="cod_bullet" reference="x_1488662_gal2_bullet" type="reference"/>
+        <element label="VFMa" max_length="40" name="vfma" type="float"/>
     </element>
 </database>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="006712918361221028f0e5d0deaad351" label="Alavanca" max_length="40" name="x_1488662_gal2_alavanca" text_index="true" type="collection">
+    <element audit="true" db_object_id="006712918361221028f0e5d0deaad351" label="Alavanca" max_length="40" name="x_1488662_gal2_alavanca" text_index="true" type="collection">
+        <element label="VFMA Simulado" max_length="40" name="vfma_simulado" type="float"/>
         <element label="VFMA" max_length="40" name="vfma" type="float"/>
         <element label="Descricao" max_length="40" name="descricao" type="string"/>
         <element label="Indice Simulado" max_length="40" name="indice_simulado" type="float"/>

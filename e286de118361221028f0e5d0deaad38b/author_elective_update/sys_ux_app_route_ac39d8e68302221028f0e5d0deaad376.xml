@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="GAL2 App Config">0c520725c46522105bb325bcc96f0dfa</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Menu</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>menu</route_type>
+        <screen_type display_value="Menu">6c3954a68302221028f0e5d0deaad370</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-13 03:10:28</sys_created_on>
+        <sys_id>ac39d8e68302221028f0e5d0deaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Menu</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_update_name>sys_ux_app_route_ac39d8e68302221028f0e5d0deaad376</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-13 03:10:28</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=ac39d8e68302221028f0e5d0deaad376"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GAL2">e286de118361221028f0e5d0deaad38b</application>
+        <file_path/>
+        <instance_id>d91a66fd3ba056d4677f04e0b5e45aab</instance_id>
+        <instance_name>dev288455</instance_name>
+        <name>sys_ux_app_route_ac39d8e68302221028f0e5d0deaad376</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="GAL2 App Config">0c520725c46522105bb325bcc96f0dfa</app_config><description/><extension_point/><fields/><icon/><name>Menu</name><optional_parameters/><order>0</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>menu</route_type><screen_type display_value="Menu">6c3954a68302221028f0e5d0deaad370</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-13 03:10:28</sys_created_on><sys_id>ac39d8e68302221028f0e5d0deaad376</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Menu</sys_name><sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package><sys_policy/><sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope><sys_update_name>sys_ux_app_route_ac39d8e68302221028f0e5d0deaad376</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-13 03:10:28</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=ac39d8e68302221028f0e5d0deaad376"/></record_update>]]></payload>
+        <payload_hash>-383992878</payload_hash>
+        <record_name>Menu</record_name>
+        <reverted_from/>
+        <source>07231bbd8329621028f0e5d0deaad370</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-13 03:10:28</sys_created_on>
+        <sys_id>6c39d8e68302221028f0e5d0deaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197674473750000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-13 03:10:28</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>2039d8e64c022210d52509b9e94e5679</update_guid>
+        <update_guid_history>2039d8e64c022210d52509b9e94e5679:-383992878</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-13 03:18:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>3a9ee70980b54dc8ae97a66d1b69ae61</sys_id>
+        <sys_metadata>ac39d8e68302221028f0e5d0deaad376</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Menu</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_scope_delete display_value="">0ed54e15a6bc4d20818b77f6d988e400</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_ac39d8e68302221028f0e5d0deaad376</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_ac39d8e68302221028f0e5d0deaad376">6c39d8e68302221028f0e5d0deaad379</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-13 03:18:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

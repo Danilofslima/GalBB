@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
     <sys_ux_list action="INSERT_OR_UPDATE">
         <active>true</active>
-        <category display_value="Bullet">095287258365221028f0e5d0deaad30c</category>
-        <columns>cod_bullet,alavanca,dimensao,dominio,peso,concluido</columns>
+        <category display_value="Alavanca">6479902a8302221028f0e5d0deaad35a</category>
+        <columns>cod_alavanca,descricao,objetivo,vfma</columns>
         <condition/>
         <configuration display_value="GAL2_menu_config">4d5287258365221028f0e5d0deaad309</configuration>
         <group_by_column/>
@@ -51,26 +51,26 @@
         <highlight_content_pattern/>
         <list_attributes/>
         <max_characters>4000</max_characters>
-        <order>50</order>
+        <order>100</order>
         <override_word_wrap_user_pref>false</override_word_wrap_user_pref>
         <roles/>
         <sys_class_name>sys_ux_list</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-16 16:24:05</sys_created_on>
+        <sys_created_on>2025-06-13 03:14:12</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>8d5287258365221028f0e5d0deaad30f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>All</sys_name>
+        <sys_id>d5b9502a8302221028f0e5d0deaad3d3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>All </sys_name>
         <sys_overrides/>
         <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
         <sys_policy/>
         <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
-        <sys_update_name>sys_ux_list_8d5287258365221028f0e5d0deaad30f</sys_update_name>
+        <sys_update_name>sys_ux_list_d5b9502a8302221028f0e5d0deaad3d3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-16 16:24:05</sys_updated_on>
-        <table>x_1488662_gal2_bullet</table>
-        <title>All</title>
+        <sys_updated_on>2025-06-13 03:15:37</sys_updated_on>
+        <table>x_1488662_gal2_alavanca</table>
+        <title>All </title>
         <view/>
         <word_wrap>false</word_wrap>
     </sys_ux_list>

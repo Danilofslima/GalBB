@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">86cf8a258379221028f0e5d0deaad3eb</canvas>
+        <component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component>
+        <component_props>{"filterId":"1ischrneqnrd8c64rb88","filterName":"Escolha uma Alavanca","filterComponentType":"singleselect","datasource":{"type":"table","payload":{"table":"x_1488662_gal2_bullet","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"table":"x_1488662_gal2_bullet","primaryKey":"sys_id"}}],"defaultSelectedItems":[],"defaultSelectedDateRange":{"range":""},"dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableClearFilter":true,"primaryActionLabel":"Apply","maxElements":500,"filterConfigurations":"@state.parFilters","cascadeScope":"a2733386-623e-47c7-9fc9-1598bda180e9","isDashboard":true,"id":"targets","value":[{"type":"table","payload":{"table":"x_1488662_gal2_bullet","primaryKey":"sys_id"}}],"noDebounce":true,"propLabel":"Data to filter"}</component_props>
+        <h>4</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 22:58:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>02cf8a258379221028f0e5d0deaad3f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_update_name>par_dashboard_widget_02cf8a258379221028f0e5d0deaad3f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 22:58:57</sys_updated_on>
+        <visualization/>
+        <w>7</w>
+        <widget_props/>
+        <x>0</x>
+        <y>13</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GAL2">e286de118361221028f0e5d0deaad38b</application>
+        <file_path/>
+        <instance_id>d91a66fd3ba056d4677f04e0b5e45aab</instance_id>
+        <instance_name>dev288455</instance_name>
+        <name>par_dashboard_widget_02cf8a258379221028f0e5d0deaad3f2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">86cf8a258379221028f0e5d0deaad3eb</canvas><component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component><component_props>{"filterId":"1ischrneqnrd8c64rb88","filterName":"Escolha uma Alavanca","filterComponentType":"singleselect","datasource":{"type":"table","payload":{"table":"x_1488662_gal2_bullet","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"table":"x_1488662_gal2_bullet","primaryKey":"sys_id"}}],"defaultSelectedItems":[],"defaultSelectedDateRange":{"range":""},"dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableClearFilter":true,"primaryActionLabel":"Apply","maxElements":500,"filterConfigurations":"@state.parFilters","cascadeScope":"a2733386-623e-47c7-9fc9-1598bda180e9","isDashboard":true,"id":"targets","value":[{"type":"table","payload":{"table":"x_1488662_gal2_bullet","primaryKey":"sys_id"}}],"noDebounce":true,"propLabel":"Data to filter"}</component_props><h>4</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-28 22:58:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>02cf8a258379221028f0e5d0deaad3f2</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package><sys_policy/><sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope><sys_update_name>par_dashboard_widget_02cf8a258379221028f0e5d0deaad3f2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-28 22:58:57</sys_updated_on><visualization/><w>7</w><widget_props/><x>0</x><y>13</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-437373038</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>07231bbd8329621028f0e5d0deaad370</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 22:58:57</sys_created_on>
+        <sys_id>cecf8a258379221028f0e5d0deaad3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197191eca2c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 22:58:57</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>c2cf8a25287922107be37703b67ad7f3</update_guid>
+        <update_guid_history>c2cf8a25287922107be37703b67ad7f3:-437373038</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">82cf8a258379221028f0e5d0deaad3fb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 22:58:57</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>aa6785e9fb9747ae9bd838feb4867d69</sys_id>
+        <sys_metadata>02cf8a258379221028f0e5d0deaad3f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_scope_delete display_value="">0ed54e15a6bc4d20818b77f6d988e400</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_02cf8a258379221028f0e5d0deaad3f2</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_02cf8a258379221028f0e5d0deaad3f2">cecf8a258379221028f0e5d0deaad3f3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 22:58:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

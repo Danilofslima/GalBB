@@ -4,181 +4,251 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-22 21:08:02</sys_created_on>
-            <sys_id>76dc72ab83a9221028f0e5d0deaad356</sys_id>
+            <sys_created_on>2025-05-23 11:23:06</sys_created_on>
+            <sys_id>98900e738369621028f0e5d0deaad36e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1488662_gal2_simulacao" sys_domain="global" view="Default view">f6dc766b83a9221028f0e5d0deaad33b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-22 21:08:02</sys_updated_on>
+            <sys_updated_on>2025-05-23 11:23:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assigned_to</element>
+            <element>cod_bullet</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-22 21:08:02</sys_created_on>
-            <sys_id>f2dc72ab83a9221028f0e5d0deaad357</sys_id>
+            <sys_created_on>2025-05-23 11:23:06</sys_created_on>
+            <sys_id>90900e738369621028f0e5d0deaad36f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1488662_gal2_simulacao" sys_domain="global" view="Default view">f6dc766b83a9221028f0e5d0deaad33b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-22 21:08:02</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cmdb_ci</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-22 21:08:02</sys_created_on>
-            <sys_id>fadc72ab83a9221028f0e5d0deaad357</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1488662_gal2_simulacao" sys_domain="global" view="Default view">f6dc766b83a9221028f0e5d0deaad33b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-22 21:08:02</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>active</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-22 21:08:02</sys_created_on>
-            <sys_id>fadc72ab83a9221028f0e5d0deaad358</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1488662_gal2_simulacao" sys_domain="global" view="Default view">f6dc766b83a9221028f0e5d0deaad33b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-22 21:08:02</sys_updated_on>
+            <sys_updated_on>2025-05-23 11:23:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-22 21:08:02</sys_created_on>
-            <sys_id>f2dc72ab83a9221028f0e5d0deaad358</sys_id>
+            <sys_created_on>2025-05-23 11:23:06</sys_created_on>
+            <sys_id>98900e738369621028f0e5d0deaad36f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1488662_gal2_simulacao" sys_domain="global" view="Default view">f6dc766b83a9221028f0e5d0deaad33b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-22 21:08:02</sys_updated_on>
+            <sys_updated_on>2025-05-23 11:23:06</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>priority</element>
-            <position>5</position>
+            <element>status</element>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-22 21:08:02</sys_created_on>
-            <sys_id>f2dc72ab83a9221028f0e5d0deaad359</sys_id>
+            <sys_created_on>2025-05-23 11:23:06</sys_created_on>
+            <sys_id>90900e738369621028f0e5d0deaad370</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1488662_gal2_simulacao" sys_domain="global" view="Default view">f6dc766b83a9221028f0e5d0deaad33b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-22 21:08:02</sys_updated_on>
+            <sys_updated_on>2025-05-23 11:23:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>state</element>
-            <position>6</position>
+            <element>opened_by</element>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-22 21:08:02</sys_created_on>
-            <sys_id>fadc72ab83a9221028f0e5d0deaad359</sys_id>
+            <sys_created_on>2025-05-23 11:23:06</sys_created_on>
+            <sys_id>98900e738369621028f0e5d0deaad370</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1488662_gal2_simulacao" sys_domain="global" view="Default view">f6dc766b83a9221028f0e5d0deaad33b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-22 21:08:02</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>parent</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-22 21:08:02</sys_created_on>
-            <sys_id>f2dc72ab83a9221028f0e5d0deaad35a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1488662_gal2_simulacao" sys_domain="global" view="Default view">f6dc766b83a9221028f0e5d0deaad33b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-22 21:08:02</sys_updated_on>
+            <sys_updated_on>2025-05-23 11:23:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>8</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-22 21:08:02</sys_created_on>
-            <sys_id>fadc72ab83a9221028f0e5d0deaad35a</sys_id>
+            <sys_created_on>2025-05-23 11:23:06</sys_created_on>
+            <sys_id>90900e738369621028f0e5d0deaad371</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1488662_gal2_simulacao" sys_domain="global" view="Default view">f6dc766b83a9221028f0e5d0deaad33b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-22 21:08:02</sys_updated_on>
+            <sys_updated_on>2025-05-23 11:23:06</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>short_description</element>
+            <element>.begin_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 11:23:06</sys_created_on>
+            <sys_id>98900e738369621028f0e5d0deaad371</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1488662_gal2_simulacao" sys_domain="global" view="Default view">f6dc766b83a9221028f0e5d0deaad33b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 11:23:06</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vfma_simulado</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 11:23:06</sys_created_on>
+            <sys_id>90900e738369621028f0e5d0deaad372</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1488662_gal2_simulacao" sys_domain="global" view="Default view">f6dc766b83a9221028f0e5d0deaad33b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 11:23:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vfmdim_simulado</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 11:23:06</sys_created_on>
+            <sys_id>98900e738369621028f0e5d0deaad372</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1488662_gal2_simulacao" sys_domain="global" view="Default view">f6dc766b83a9221028f0e5d0deaad33b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 11:23:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vfmdom_simulado</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-22 21:08:02</sys_created_on>
-            <sys_id>f2dc72ab83a9221028f0e5d0deaad35b</sys_id>
+            <sys_created_on>2025-05-23 11:23:06</sys_created_on>
+            <sys_id>90900e738369621028f0e5d0deaad373</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1488662_gal2_simulacao" sys_domain="global" view="Default view">f6dc766b83a9221028f0e5d0deaad33b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-22 21:08:02</sys_updated_on>
+            <sys_updated_on>2025-05-23 11:23:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
+            <element>.split</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-22 21:08:02</sys_created_on>
-            <sys_id>fadc72ab83a9221028f0e5d0deaad35b</sys_id>
+            <sys_created_on>2025-05-23 11:23:06</sys_created_on>
+            <sys_id>98900e738369621028f0e5d0deaad373</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1488662_gal2_simulacao" sys_domain="global" view="Default view">f6dc766b83a9221028f0e5d0deaad33b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-22 21:08:02</sys_updated_on>
+            <sys_updated_on>2025-05-23 11:23:06</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vfma</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 11:23:06</sys_created_on>
+            <sys_id>90900e738369621028f0e5d0deaad374</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1488662_gal2_simulacao" sys_domain="global" view="Default view">f6dc766b83a9221028f0e5d0deaad33b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 11:23:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>work_notes</element>
-            <position>11</position>
+            <element>vfmdim</element>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-22 21:08:02</sys_created_on>
-            <sys_id>f2dc72ab83a9221028f0e5d0deaad35c</sys_id>
+            <sys_created_on>2025-05-23 11:23:06</sys_created_on>
+            <sys_id>98900e738369621028f0e5d0deaad374</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1488662_gal2_simulacao" sys_domain="global" view="Default view">f6dc766b83a9221028f0e5d0deaad33b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-22 21:08:02</sys_updated_on>
+            <sys_updated_on>2025-05-23 11:23:06</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vfmdom</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 11:23:06</sys_created_on>
+            <sys_id>90900e738369621028f0e5d0deaad375</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1488662_gal2_simulacao" sys_domain="global" view="Default view">f6dc766b83a9221028f0e5d0deaad33b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 11:23:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 11:23:06</sys_created_on>
+            <sys_id>98900e738369621028f0e5d0deaad375</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1488662_gal2_simulacao" sys_domain="global" view="Default view">f6dc766b83a9221028f0e5d0deaad33b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 11:23:06</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>listaeditado</element>
-            <position>12</position>
+            <position>15</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-23 01:33:19</sys_created_on>
-            <sys_id>3099bf6383ed221028f0e5d0deaad3f1</sys_id>
+            <sys_created_on>2025-05-23 11:23:06</sys_created_on>
+            <sys_id>90900e738369621028f0e5d0deaad376</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1488662_gal2_simulacao" sys_domain="global" view="Default view">f6dc766b83a9221028f0e5d0deaad33b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-23 01:33:19</sys_updated_on>
+            <sys_updated_on>2025-05-23 11:23:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ssssss</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-13 20:26:31</sys_created_on>
+            <sys_id>4d5688f28302221028f0e5d0deaad31e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1488662_gal2_simulacao" sys_domain="global" view="Default view">f6dc766b83a9221028f0e5d0deaad33b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-13 20:26:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>clickable</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-13 20:28:34</sys_created_on>
+            <sys_id>cbc6c4368302221028f0e5d0deaad3ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1488662_gal2_simulacao" sys_domain="global" view="Default view">f6dc766b83a9221028f0e5d0deaad33b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-13 20:28:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -365,967 +365,1423 @@
                 },
                 {
                     "definition": {
-                        "id": "66ee7d86e81f696c9f9be19d8424cc0d",
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
                         "type": "MACROPONENT"
                     },
-                    "elementId": "list",
-                    "elementLabel": "List ",
-                    "eventMappings": [
-                        {
-                            "eventMappingId": "cktnccxbbhccaaaabbvddgiioljjjjaaabrg",
-                            "isConfiguration": false,
-                            "offRowStorageId": null,
-                            "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#CONTENT_ITEMS_SELECTED",
-                            "sourceEventCorrelationId": null,
-                            "sourceEventDefinition": {
-                                "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#CONTENT_ITEMS_SELECTED",
-                                "id": null,
-                                "type": "UXEVENT"
-                            },
-                            "sourceEventSysId": null,
-                            "targets": [
-                                {
-                                    "broker": null,
-                                    "clientScript": {
-                                        "sysId": "ba53e03d832d221028f0e5d0deaad30d"
-                                    },
-                                    "conditional": null,
-                                    "declarativeAction": null,
-                                    "event": null,
-                                    "operation": null,
-                                    "targetId": "cktnccxbbhccaaaabbwddgiioddtsgtseeff",
-                                    "type": "CLIENT_SCRIPT"
-                                }
-                            ]
-                        },
-                        {
-                            "eventMappingId": "cktddiibflddaaaabbccddhiiddvyuogtik",
-                            "isConfiguration": false,
-                            "offRowStorageId": null,
-                            "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ADD_NOTIFICATIONS",
-                            "sourceEventCorrelationId": null,
-                            "sourceEventDefinition": {
-                                "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ADD_NOTIFICATIONS",
-                                "id": null,
-                                "type": "UXEVENT"
-                            },
-                            "sourceEventSysId": null,
-                            "targets": [
-                                {
-                                    "broker": null,
-                                    "clientScript": null,
-                                    "declarativeAction": null,
-                                    "event": {
-                                        "apiName": "sn_uxf_page.NOW_UXF_PAGE#ADD_NOTIFICATIONS",
-                                        "payload": {
-                                            "container": {
-                                                "items": {
-                                                    "binding": {
-                                                        "address": [
-                                                            "notifications"
-                                                        ]
-                                                    },
-                                                    "type": "EVENT_PAYLOAD_BINDING"
-                                                }
-                                            },
-                                            "type": "MAP_CONTAINER"
-                                        },
-                                        "sysId": "49fe7d575f983bb3f8eea3fa8d40694c"
-                                    },
-                                    "operation": null,
-                                    "targetId": "cktddiibflddaaaabbddddhiiddjkslhscaa",
-                                    "type": "EVENT"
-                                }
-                            ]
-                        },
-                        {
-                            "eventMappingId": "ckkddaeeweaaaahhzddhiiaahhfggiffbbbbb",
-                            "isConfiguration": false,
-                            "offRowStorageId": null,
-                            "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#LIST_MENU_BUTTON_TOGGLED",
-                            "sourceEventDefinition": {
-                                "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#LIST_MENU_BUTTON_TOGGLED",
-                                "id": null,
-                                "type": "UXEVENT"
-                            },
-                            "sourceEventSysId": null,
-                            "targets": [
-                                {
-                                    "broker": null,
-                                    "clientScript": {
-                                        "sysId": "b253e03d832d221028f0e5d0deaad300"
-                                    },
-                                    "declarativeAction": null,
-                                    "event": null,
-                                    "operation": null,
-                                    "targetId": "ckkddaeewfaaaaiiaaddhiiaarukhaajjh",
-                                    "type": "CLIENT_SCRIPT"
-                                }
-                            ]
-                        },
-                        {
-                            "eventMappingId": "ckkddjjityaaaahhxddhiiaaeegggafyog",
-                            "isConfiguration": false,
-                            "offRowStorageId": null,
-                            "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#SAVE_REQUESTED",
-                            "sourceEventDefinition": {
-                                "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#SAVE_REQUESTED",
-                                "id": null,
-                                "type": "UXEVENT"
-                            },
-                            "sourceEventSysId": null,
-                            "targets": [
-                                {
-                                    "broker": null,
-                                    "clientScript": {
-                                        "sysId": "ba53e03d832d221028f0e5d0deaad304"
-                                    },
-                                    "declarativeAction": null,
-                                    "event": null,
-                                    "operation": null,
-                                    "targetId": "ckkddjjityaaaahhyddhiiaaqhhpmeecccck",
-                                    "type": "CLIENT_SCRIPT"
-                                }
-                            ]
-                        },
-                        {
-                            "eventMappingId": "ckkddjjiiqbaaaahhvddhiiaaxdvaavasp",
-                            "isConfiguration": false,
-                            "offRowStorageId": null,
-                            "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#SAVE_AS_REQUESTED",
-                            "sourceEventDefinition": {
-                                "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#SAVE_AS_REQUESTED",
-                                "id": null,
-                                "type": "UXEVENT"
-                            },
-                            "sourceEventSysId": null,
-                            "targets": [
-                                {
-                                    "broker": null,
-                                    "clientScript": {
-                                        "sysId": "ba53e03d832d221028f0e5d0deaad304"
-                                    },
-                                    "declarativeAction": null,
-                                    "event": null,
-                                    "operation": null,
-                                    "targetId": "ckkddjjiiqbaaaahhwddhiiaaxxehbjan",
-                                    "type": "CLIENT_SCRIPT"
-                                }
-                            ]
-                        },
-                        {
-                            "eventMappingId": "ckkddiieebffaaaahhtddhiiaacchattdggu",
-                            "isConfiguration": false,
-                            "offRowStorageId": null,
-                            "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#RENAME_REQUESTED",
-                            "sourceEventDefinition": {
-                                "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#RENAME_REQUESTED",
-                                "id": null,
-                                "type": "UXEVENT"
-                            },
-                            "sourceEventSysId": null,
-                            "targets": [
-                                {
-                                    "broker": null,
-                                    "clientScript": {
-                                        "sysId": "ba53e03d832d221028f0e5d0deaad304"
-                                    },
-                                    "declarativeAction": null,
-                                    "event": null,
-                                    "operation": null,
-                                    "targetId": "ckkddiieebffaaaahhuddhiiaaxjcciidffdm",
-                                    "type": "CLIENT_SCRIPT"
-                                }
-                            ]
-                        },
-                        {
-                            "eventMappingId": "ckkddhhkffjaaaahhrddhiiaakxfcaaehu",
-                            "isConfiguration": false,
-                            "offRowStorageId": null,
-                            "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#DELETE_REQUESTED",
-                            "sourceEventDefinition": {
-                                "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#DELETE_REQUESTED",
-                                "id": null,
-                                "type": "UXEVENT"
-                            },
-                            "sourceEventSysId": null,
-                            "targets": [
-                                {
-                                    "broker": null,
-                                    "clientScript": {
-                                        "sysId": "ba53e03d832d221028f0e5d0deaad304"
-                                    },
-                                    "declarativeAction": null,
-                                    "event": null,
-                                    "operation": null,
-                                    "targetId": "ckkddhhkffjaaaahhsddhiiaazgaawvzpu",
-                                    "type": "CLIENT_SCRIPT"
-                                }
-                            ]
-                        },
-                        {
-                            "eventMappingId": "ckkddggqfcaaaahhpddhiiaacoupkakz",
-                            "isConfiguration": false,
-                            "offRowStorageId": null,
-                            "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#EDIT_COLUMNS_REQUESTED",
-                            "sourceEventDefinition": {
-                                "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#EDIT_COLUMNS_REQUESTED",
-                                "id": null,
-                                "type": "UXEVENT"
-                            },
-                            "sourceEventSysId": null,
-                            "targets": [
-                                {
-                                    "broker": null,
-                                    "clientScript": {
-                                        "sysId": "ba53e03d832d221028f0e5d0deaad304"
-                                    },
-                                    "declarativeAction": null,
-                                    "event": null,
-                                    "operation": null,
-                                    "targetId": "ckkddggqfcaaaahhqddhiiaahbbbddrzml",
-                                    "type": "CLIENT_SCRIPT"
-                                }
-                            ]
-                        },
-                        {
-                            "eventMappingId": "ckkddffsegaaaahhnddhiiaaazmksfrv",
-                            "isConfiguration": false,
-                            "offRowStorageId": null,
-                            "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#FORM_EDIT_PREVIEW_RECORD_CLICKED",
-                            "sourceEventDefinition": {
-                                "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#FORM_EDIT_PREVIEW_RECORD_CLICKED",
-                                "id": null,
-                                "type": "UXEVENT"
-                            },
-                            "sourceEventSysId": null,
-                            "targets": [
-                                {
-                                    "broker": null,
-                                    "clientScript": {
-                                        "sysId": "ba53e03d832d221028f0e5d0deaad31f"
-                                    },
-                                    "declarativeAction": null,
-                                    "event": null,
-                                    "operation": null,
-                                    "targetId": "ckkddffsegaaaahhoddhiiaakymrzccda",
-                                    "type": "CLIENT_SCRIPT"
-                                }
-                            ]
-                        },
-                        {
-                            "eventMappingId": "ckdtggfiiddfaaaaaaaddhhheenpggifbbpee",
-                            "isConfiguration": false,
-                            "offRowStorageId": null,
-                            "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#DA_ITEM_SELECTED",
-                            "sourceEventDefinition": {
-                                "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#DA_ITEM_SELECTED",
-                                "id": null,
-                                "type": "UXEVENT"
-                            },
-                            "sourceEventSysId": null,
-                            "targets": [
-                                {
-                                    "broker": null,
-                                    "clientScript": null,
-                                    "declarativeAction": null,
-                                    "event": {
-                                        "apiName": "sn_uib_base_aw.NAV_ITEM_SELECTED_RELAY_2c08111d0fc21010036a83fa68767ef6",
-                                        "payload": {
-                                            "container": {
-                                                "external": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "fields": {
-                                                    "container": {
-                                                        "sysId": {
-                                                            "type": "JSON_LITERAL",
-                                                            "value": "-1"
-                                                        },
-                                                        "table": {
-                                                            "binding": {
-                                                                "address": [
-                                                                    "table"
-                                                                ]
-                                                            },
-                                                            "type": "EVENT_PAYLOAD_BINDING"
-                                                        }
-                                                    },
-                                                    "type": "MAP_CONTAINER"
-                                                },
-                                                "multiInstField": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "params": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "passiveNavigation": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "redirect": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "route": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "record"
-                                                },
-                                                "targetRoute": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "title": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                }
-                                            },
-                                            "type": "MAP_CONTAINER"
-                                        },
-                                        "sysId": "f008951d0fc21010036a83fa68767e1c"
-                                    },
-                                    "operation": null,
-                                    "targetId": "ckdtggfmgglaaaaaabddhhheeleesdaaubbh",
-                                    "type": "EVENT"
-                                }
-                            ]
-                        },
-                        {
-                            "eventMappingId": "ckkddddojcaaaahhjddhiiaavevxwrsgg",
-                            "isConfiguration": false,
-                            "offRowStorageId": null,
-                            "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
-                            "sourceEventDefinition": {
-                                "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
-                                "id": null,
-                                "type": "UXEVENT"
-                            },
-                            "sourceEventSysId": null,
-                            "targets": [
-                                {
-                                    "broker": null,
-                                    "clientScript": {
-                                        "sysId": "ba53e03d832d221028f0e5d0deaad31f"
-                                    },
-                                    "declarativeAction": null,
-                                    "event": null,
-                                    "operation": null,
-                                    "targetId": "ckkddddojcaaaahhkddhiiaaqgghhysgmg",
-                                    "type": "CLIENT_SCRIPT"
-                                }
-                            ]
-                        }
-                    ],
+                    "elementId": "column_layout_2",
+                    "elementLabel": "Column layout 2",
+                    "eventMappings": [],
                     "isHidden": {
                         "type": "JSON_LITERAL",
-                        "value": ""
+                        "value": null
                     },
-                    "isNonDestructive": false,
-                    "overrides": {},
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "d356d14b6e293a3020a244b63d278d8f",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "__cmbhhffvgnlaaeeaawddffiihhjkccaahhrpr__column_1",
+                                "elementLabel": "Column 1",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "overrides": {
+                                    "composition": [
+                                        {
+                                            "definition": {
+                                                "id": "d356d14b6e293a3020a244b63d278d8f",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "column_layout_3",
+                                            "elementLabel": "Column layout 3",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "overrides": {
+                                                "composition": [
+                                                    {
+                                                        "definition": {
+                                                            "id": "d356d14b6e293a3020a244b63d278d8f",
+                                                            "type": "MACROPONENT"
+                                                        },
+                                                        "elementId": "__cmbhhffwdyccaaeeaaxddffiihhgccpztjjoi__column_1",
+                                                        "elementLabel": "Column 1",
+                                                        "eventMappings": [],
+                                                        "isHidden": {
+                                                            "type": "JSON_LITERAL",
+                                                            "value": null
+                                                        },
+                                                        "overrides": {
+                                                            "composition": [
+                                                                {
+                                                                    "definition": {
+                                                                        "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                                                                        "type": "MACROPONENT"
+                                                                    },
+                                                                    "elementId": "stylized_text_1",
+                                                                    "elementLabel": "Stylized text 1",
+                                                                    "eventMappings": [],
+                                                                    "isHidden": {
+                                                                        "type": "JSON_LITERAL",
+                                                                        "value": null
+                                                                    },
+                                                                    "preset": null,
+                                                                    "propertyValues": {
+                                                                        "configAria": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": {}
+                                                                        },
+                                                                        "css": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": "* { }"
+                                                                        },
+                                                                        "tag": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": "h1"
+                                                                        },
+                                                                        "text": {
+                                                                            "binding": {
+                                                                                "address": [
+                                                                                    "list_navigation_information",
+                                                                                    "listMenuData",
+                                                                                    "title"
+                                                                                ]
+                                                                            },
+                                                                            "type": "DATA_OUTPUT_BINDING"
+                                                                        }
+                                                                    },
+                                                                    "slot": null,
+                                                                    "styles": null
+                                                                }
+                                                            ],
+                                                            "layout": {
+                                                                "default": {
+                                                                    "children": null,
+                                                                    "items": [
+                                                                        {
+                                                                            "element_id": "stylized_text_1",
+                                                                            "styles": {}
+                                                                        }
+                                                                    ],
+                                                                    "root": null,
+                                                                    "rules": {
+                                                                        "flex-direction": "row"
+                                                                    },
+                                                                    "styles": {
+                                                                        "align-items": "stretch",
+                                                                        "box-sizing": "border-box",
+                                                                        "flex-direction": "column",
+                                                                        "height": "100%",
+                                                                        "justify-content": "flex-start",
+                                                                        "overflow": "auto"
+                                                                    },
+                                                                    "type": "flex"
+                                                                },
+                                                                "version": "3.0.0"
+                                                            }
+                                                        },
+                                                        "preset": null,
+                                                        "propertyValues": {
+                                                            "hideEmptyStateUi": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": true
+                                                            },
+                                                            "slotWrapperBehavior": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "contents"
+                                                            }
+                                                        },
+                                                        "scratchPad": {
+                                                            "uib": {
+                                                                "layout": {
+                                                                    "column": {
+                                                                        "columnNumber": 1,
+                                                                        "id": "default",
+                                                                        "styleConfig": {
+                                                                            "external": {
+                                                                                "display": "contents",
+                                                                                "width": "100%"
+                                                                            },
+                                                                            "internal": {
+                                                                                "align-items": "stretch",
+                                                                                "box-sizing": "border-box",
+                                                                                "flex-direction": "column",
+                                                                                "height": "100%",
+                                                                                "justify-content": "flex-start",
+                                                                                "overflow": "auto"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "type": "column"
+                                                                },
+                                                                "version": "1.0.0"
+                                                            }
+                                                        },
+                                                        "slot": null,
+                                                        "styles": null
+                                                    }
+                                                ],
+                                                "layout": {
+                                                    "default": {
+                                                        "children": null,
+                                                        "isInline": null,
+                                                        "items": [
+                                                            {
+                                                                "element_id": "__cmbhhffwdyccaaeeaaxddffiihhgccpztjjoi__column_1",
+                                                                "styles": {
+                                                                    "display": "contents",
+                                                                    "width": "100%"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "root": null,
+                                                        "rules": null,
+                                                        "styles": {
+                                                            "box-sizing": "border-box",
+                                                            "grid-template-columns": "100fr",
+                                                            "grid-template-rows": "1fr",
+                                                            "width": "auto"
+                                                        },
+                                                        "type": "grid"
+                                                    },
+                                                    "queries": [
+                                                        {
+                                                            "layout": {
+                                                                "children": null,
+                                                                "isInline": null,
+                                                                "items": [],
+                                                                "root": null,
+                                                                "rules": null,
+                                                                "styles": {
+                                                                    "box-sizing": "border-box",
+                                                                    "grid-template-columns": "1fr",
+                                                                    "grid-template-rows": "1fr",
+                                                                    "height": "fit-content",
+                                                                    "max-height": "max-content",
+                                                                    "min-height": "min-content",
+                                                                    "width": "auto"
+                                                                },
+                                                                "type": "grid"
+                                                            },
+                                                            "query": {
+                                                                "max-width": 640
+                                                            }
+                                                        }
+                                                    ],
+                                                    "version": "3.0.0"
+                                                }
+                                            },
+                                            "preset": null,
+                                            "propertyValues": {
+                                                "hideEmptyStateUi": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": true
+                                                },
+                                                "slotWrapperBehavior": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "contents"
+                                                }
+                                            },
+                                            "scratchPad": {
+                                                "uib": {
+                                                    "layout": {
+                                                        "columnSection": {
+                                                            "breakpoints": [
+                                                                {
+                                                                    "behavior": "stack",
+                                                                    "max-width": 640,
+                                                                    "styles": {
+                                                                        "box-sizing": "border-box",
+                                                                        "grid-template-columns": "1fr",
+                                                                        "grid-template-rows": "1fr",
+                                                                        "height": "fit-content",
+                                                                        "max-height": "max-content",
+                                                                        "min-height": "min-content",
+                                                                        "width": "auto"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "children": [
+                                                                {
+                                                                    "columnNumber": 1,
+                                                                    "unit": "%",
+                                                                    "width": 100
+                                                                }
+                                                            ],
+                                                            "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
+                                                            "styleConfig": {
+                                                                "external": {
+                                                                    "display": "contents",
+                                                                    "width": "100%"
+                                                                },
+                                                                "internal": {
+                                                                    "box-sizing": "border-box",
+                                                                    "grid-template-rows": "1fr",
+                                                                    "width": "auto"
+                                                                }
+                                                            }
+                                                        },
+                                                        "type": "columnSection"
+                                                    },
+                                                    "version": "1.0.0"
+                                                }
+                                            },
+                                            "slot": "right",
+                                            "styles": {
+                                                "display": "contents",
+                                                "width": "100%"
+                                            }
+                                        },
+                                        {
+                                            "definition": {
+                                                "id": "66ee7d86e81f696c9f9be19d8424cc0d",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "list",
+                                            "elementLabel": "List ",
+                                            "eventMappings": [
+                                                {
+                                                    "eventMappingId": "cktnccxbbhccaaaabbvddgiioljjjjaaabrg",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#CONTENT_ITEMS_SELECTED",
+                                                    "sourceEventCorrelationId": null,
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#CONTENT_ITEMS_SELECTED",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": {
+                                                                "sysId": "ba53e03d832d221028f0e5d0deaad30d"
+                                                            },
+                                                            "conditional": null,
+                                                            "declarativeAction": null,
+                                                            "event": null,
+                                                            "operation": null,
+                                                            "targetId": "cktnccxbbhccaaaabbwddgiioddtsgtseeff",
+                                                            "type": "CLIENT_SCRIPT"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "eventMappingId": "cktddiibflddaaaabbccddhiiddvyuogtik",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ADD_NOTIFICATIONS",
+                                                    "sourceEventCorrelationId": null,
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ADD_NOTIFICATIONS",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": null,
+                                                            "declarativeAction": null,
+                                                            "event": {
+                                                                "apiName": "sn_uxf_page.NOW_UXF_PAGE#ADD_NOTIFICATIONS",
+                                                                "payload": {
+                                                                    "container": {
+                                                                        "items": {
+                                                                            "binding": {
+                                                                                "address": [
+                                                                                    "notifications"
+                                                                                ]
+                                                                            },
+                                                                            "type": "EVENT_PAYLOAD_BINDING"
+                                                                        }
+                                                                    },
+                                                                    "type": "MAP_CONTAINER"
+                                                                },
+                                                                "sysId": "49fe7d575f983bb3f8eea3fa8d40694c"
+                                                            },
+                                                            "operation": null,
+                                                            "targetId": "cktddiibflddaaaabbddddhiiddjkslhscaa",
+                                                            "type": "EVENT"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "eventMappingId": "ckkddaeeweaaaahhzddhiiaahhfggiffbbbbb",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#LIST_MENU_BUTTON_TOGGLED",
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#LIST_MENU_BUTTON_TOGGLED",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": {
+                                                                "sysId": "b253e03d832d221028f0e5d0deaad300"
+                                                            },
+                                                            "declarativeAction": null,
+                                                            "event": null,
+                                                            "operation": null,
+                                                            "targetId": "ckkddaeewfaaaaiiaaddhiiaarukhaajjh",
+                                                            "type": "CLIENT_SCRIPT"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "eventMappingId": "ckkddjjityaaaahhxddhiiaaeegggafyog",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#SAVE_REQUESTED",
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#SAVE_REQUESTED",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": {
+                                                                "sysId": "ba53e03d832d221028f0e5d0deaad304"
+                                                            },
+                                                            "declarativeAction": null,
+                                                            "event": null,
+                                                            "operation": null,
+                                                            "targetId": "ckkddjjityaaaahhyddhiiaaqhhpmeecccck",
+                                                            "type": "CLIENT_SCRIPT"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "eventMappingId": "ckkddjjiiqbaaaahhvddhiiaaxdvaavasp",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#SAVE_AS_REQUESTED",
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#SAVE_AS_REQUESTED",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": {
+                                                                "sysId": "ba53e03d832d221028f0e5d0deaad304"
+                                                            },
+                                                            "declarativeAction": null,
+                                                            "event": null,
+                                                            "operation": null,
+                                                            "targetId": "ckkddjjiiqbaaaahhwddhiiaaxxehbjan",
+                                                            "type": "CLIENT_SCRIPT"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "eventMappingId": "ckkddiieebffaaaahhtddhiiaacchattdggu",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#RENAME_REQUESTED",
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#RENAME_REQUESTED",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": {
+                                                                "sysId": "ba53e03d832d221028f0e5d0deaad304"
+                                                            },
+                                                            "declarativeAction": null,
+                                                            "event": null,
+                                                            "operation": null,
+                                                            "targetId": "ckkddiieebffaaaahhuddhiiaaxjcciidffdm",
+                                                            "type": "CLIENT_SCRIPT"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "eventMappingId": "ckkddhhkffjaaaahhrddhiiaakxfcaaehu",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#DELETE_REQUESTED",
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#DELETE_REQUESTED",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": {
+                                                                "sysId": "ba53e03d832d221028f0e5d0deaad304"
+                                                            },
+                                                            "declarativeAction": null,
+                                                            "event": null,
+                                                            "operation": null,
+                                                            "targetId": "ckkddhhkffjaaaahhsddhiiaazgaawvzpu",
+                                                            "type": "CLIENT_SCRIPT"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "eventMappingId": "ckkddggqfcaaaahhpddhiiaacoupkakz",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#EDIT_COLUMNS_REQUESTED",
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#EDIT_COLUMNS_REQUESTED",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": {
+                                                                "sysId": "ba53e03d832d221028f0e5d0deaad304"
+                                                            },
+                                                            "declarativeAction": null,
+                                                            "event": null,
+                                                            "operation": null,
+                                                            "targetId": "ckkddggqfcaaaahhqddhiiaahbbbddrzml",
+                                                            "type": "CLIENT_SCRIPT"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "eventMappingId": "ckkddffsegaaaahhnddhiiaaazmksfrv",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#FORM_EDIT_PREVIEW_RECORD_CLICKED",
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#FORM_EDIT_PREVIEW_RECORD_CLICKED",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": {
+                                                                "sysId": "ba53e03d832d221028f0e5d0deaad31f"
+                                                            },
+                                                            "declarativeAction": null,
+                                                            "event": null,
+                                                            "operation": null,
+                                                            "targetId": "ckkddffsegaaaahhoddhiiaakymrzccda",
+                                                            "type": "CLIENT_SCRIPT"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "eventMappingId": "ckdtggfiiddfaaaaaaaddhhheenpggifbbpee",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#DA_ITEM_SELECTED",
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#DA_ITEM_SELECTED",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": null,
+                                                            "declarativeAction": null,
+                                                            "event": {
+                                                                "apiName": "sn_uib_base_aw.NAV_ITEM_SELECTED_RELAY_2c08111d0fc21010036a83fa68767ef6",
+                                                                "payload": {
+                                                                    "container": {
+                                                                        "external": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "fields": {
+                                                                            "container": {
+                                                                                "sysId": {
+                                                                                    "type": "JSON_LITERAL",
+                                                                                    "value": "-1"
+                                                                                },
+                                                                                "table": {
+                                                                                    "binding": {
+                                                                                        "address": [
+                                                                                            "table"
+                                                                                        ]
+                                                                                    },
+                                                                                    "type": "EVENT_PAYLOAD_BINDING"
+                                                                                }
+                                                                            },
+                                                                            "type": "MAP_CONTAINER"
+                                                                        },
+                                                                        "multiInstField": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "params": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "passiveNavigation": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "redirect": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "route": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": "record"
+                                                                        },
+                                                                        "targetRoute": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "title": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        }
+                                                                    },
+                                                                    "type": "MAP_CONTAINER"
+                                                                },
+                                                                "sysId": "f008951d0fc21010036a83fa68767e1c"
+                                                            },
+                                                            "operation": null,
+                                                            "targetId": "ckdtggfmgglaaaaaabddhhheeleesdaaubbh",
+                                                            "type": "EVENT"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "eventMappingId": "ckkddddojcaaaahhjddhiiaavevxwrsgg",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": {
+                                                                "sysId": "ba53e03d832d221028f0e5d0deaad31f"
+                                                            },
+                                                            "declarativeAction": null,
+                                                            "event": null,
+                                                            "operation": null,
+                                                            "targetId": "ckkddddojcaaaahhkddhiiaaqgghhysgmg",
+                                                            "type": "CLIENT_SCRIPT"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": ""
+                                            },
+                                            "isNonDestructive": false,
+                                            "overrides": {},
+                                            "propertyValues": {
+                                                "actionConfigId": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "actionConfigId"
+                                                        ],
+                                                        "category": "app"
+                                                    },
+                                                    "type": "CONTEXT_BINDING"
+                                                },
+                                                "columns": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "columns"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "daClientActionContract": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "disableInlineEditing": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "error": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": {}
+                                                },
+                                                "groupByField": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "groupByField"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "headerSize": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "lg"
+                                                },
+                                                "headingLevel": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": 1
+                                                },
+                                                "hideCellFilter": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideCellFilter"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideCheckboxHover": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideCheckboxHover"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideColumnFiltering": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideColumnFiltering"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideColumnGrouping": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideColumnGrouping"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideColumnResizing": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideColumnResizing"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideColumnSorting": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideColumnSorting"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideDeclarativeActions": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideListActions"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideDragDrop": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideDragAndDrop"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideEmptyStateImage": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideEmptyStateImage"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideFilterPanel": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hidePanelButton"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideFirstPage": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideFirstPage"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideHeader": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideHeader"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideHighlightContent": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideHighlightContent"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideHighlightedValues": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideHighlightedValues"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideInlineEditing": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideInlineEditing"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideLastPage": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideLastPage"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideLastRefreshedText": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideLastRefreshedText"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideLimitSelector": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideRowsPerPageSelector"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideLinks": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideLinks"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideListSharing": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideSharingButton"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideMenuButton": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideMenuButton"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideNextPage": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideNextPage"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideOptionToSaveAs": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideOptionToSaveAs"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hidePages": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hidePages"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hidePagination": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hidePagination"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hidePanelAdvanced": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hidePanelAdvanced"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hidePanelConditionDelete": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hidePanelConditionDelete"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hidePanelFooter": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hidePanelFooter"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hidePanelRestore": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hidePanelRestore"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hidePreviousPage": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hidePreviousPage"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideQuickEdit": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideQuickEdit"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideRange": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideRange"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideRefreshButton": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideRefreshButton"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideRowCount": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideRowCount"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideRowSelector": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideRowSelector"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideSelectAll": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideSelectAll"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideTitle": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideTitle"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "hideTitleRowCount": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideRecordCountBadge"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "highlightContent": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "highlightContent"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "highlightedValueConfigId": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "highlightedValueConfigId"
+                                                        ],
+                                                        "category": "app"
+                                                    },
+                                                    "type": "CONTEXT_BINDING"
+                                                },
+                                                "isRefList": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "hideReferenceLinks"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "limit": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "listCrud": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": {}
+                                                },
+                                                "listMenuOpen": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "listMenuOpen"
+                                                        ]
+                                                    },
+                                                    "type": "STATE_BINDING"
+                                                },
+                                                "listTitle": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "title"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "maxCharLimit": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "maxCharactersValue"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "maxColumns": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "50"
+                                                },
+                                                "menuSelection": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "targetTable"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "page": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": 1
+                                                },
+                                                "query": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "conditions"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "recordSelectedQuery": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "recordSelectedSysId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "recordSelectedTable": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "recordSelectedView": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "refreshRequested": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "listRefresh"
+                                                        ]
+                                                    },
+                                                    "type": "STATE_BINDING"
+                                                },
+                                                "selectedListId": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "selectedListId"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "selectedRecords": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": []
+                                                },
+                                                "table": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "table"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                },
+                                                "tiny": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "tinyId"
+                                                        ]
+                                                    },
+                                                    "type": "STATE_BINDING"
+                                                },
+                                                "view": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_nav",
+                                                            "view"
+                                                        ]
+                                                    },
+                                                    "type": "ELEMENT_BINDING"
+                                                },
+                                                "wordWrap": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "list_navigation_information",
+                                                            "listMenuData",
+                                                            "wordWrap"
+                                                        ]
+                                                    },
+                                                    "type": "DATA_OUTPUT_BINDING"
+                                                }
+                                            },
+                                            "slot": "right",
+                                            "styles": {}
+                                        }
+                                    ],
+                                    "layout": {
+                                        "default": {
+                                            "children": null,
+                                            "items": [
+                                                {
+                                                    "element_id": "column_layout_3",
+                                                    "styles": {}
+                                                },
+                                                {
+                                                    "element_id": "list",
+                                                    "styles": {}
+                                                }
+                                            ],
+                                            "root": null,
+                                            "rules": {
+                                                "flex-direction": "row"
+                                            },
+                                            "styles": {
+                                                "align-items": "stretch",
+                                                "box-sizing": "border-box",
+                                                "flex-direction": "column",
+                                                "height": "100%",
+                                                "justify-content": "flex-start",
+                                                "overflow": "auto"
+                                            },
+                                            "type": "flex"
+                                        },
+                                        "version": "3.0.0"
+                                    }
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "hideEmptyStateUi": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "slotWrapperBehavior": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "contents"
+                                    }
+                                },
+                                "scratchPad": {
+                                    "uib": {
+                                        "layout": {
+                                            "column": {
+                                                "columnNumber": 1,
+                                                "id": "default",
+                                                "styleConfig": {
+                                                    "external": {
+                                                        "display": "contents",
+                                                        "width": "100%"
+                                                    },
+                                                    "internal": {
+                                                        "align-items": "stretch",
+                                                        "box-sizing": "border-box",
+                                                        "flex-direction": "column",
+                                                        "height": "100%",
+                                                        "justify-content": "flex-start",
+                                                        "overflow": "auto"
+                                                    }
+                                                }
+                                            },
+                                            "type": "column"
+                                        },
+                                        "version": "1.0.0"
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "isInline": null,
+                                "items": [
+                                    {
+                                        "element_id": "__cmbhhffvgnlaaeeaawddffiihhjkccaahhrpr__column_1",
+                                        "styles": {
+                                            "display": "contents",
+                                            "width": "100%"
+                                        }
+                                    }
+                                ],
+                                "root": null,
+                                "rules": null,
+                                "styles": {
+                                    "box-sizing": "border-box",
+                                    "display": "contents",
+                                    "grid-template-columns": "100fr",
+                                    "grid-template-rows": "1fr",
+                                    "width": "100%"
+                                },
+                                "type": "grid"
+                            },
+                            "queries": [
+                                {
+                                    "layout": {
+                                        "children": null,
+                                        "isInline": null,
+                                        "items": [],
+                                        "root": null,
+                                        "rules": null,
+                                        "styles": {
+                                            "box-sizing": "border-box",
+                                            "grid-template-columns": "1fr",
+                                            "grid-template-rows": "1fr",
+                                            "height": "fit-content",
+                                            "max-height": "max-content",
+                                            "min-height": "min-content",
+                                            "width": "auto"
+                                        },
+                                        "type": "grid"
+                                    },
+                                    "query": {
+                                        "max-width": 640
+                                    }
+                                }
+                            ],
+                            "version": "3.0.0"
+                        }
+                    },
+                    "preset": null,
                     "propertyValues": {
-                        "actionConfigId": {
-                            "binding": {
-                                "address": [
-                                    "actionConfigId"
-                                ],
-                                "category": "app"
-                            },
-                            "type": "CONTEXT_BINDING"
-                        },
-                        "columns": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "columns"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "daClientActionContract": {
+                        "hideEmptyStateUi": {
                             "type": "JSON_LITERAL",
-                            "value": ""
+                            "value": true
                         },
-                        "disableInlineEditing": {
+                        "slotWrapperBehavior": {
                             "type": "JSON_LITERAL",
-                            "value": false
-                        },
-                        "error": {
-                            "type": "JSON_LITERAL",
-                            "value": {}
-                        },
-                        "groupByField": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "groupByField"
-                                ]
+                            "value": "contents"
+                        }
+                    },
+                    "scratchPad": {
+                        "uib": {
+                            "layout": {
+                                "columnSection": {
+                                    "breakpoints": [
+                                        {
+                                            "behavior": "stack",
+                                            "max-width": 640,
+                                            "styles": {
+                                                "box-sizing": "border-box",
+                                                "grid-template-columns": "1fr",
+                                                "grid-template-rows": "1fr",
+                                                "height": "fit-content",
+                                                "max-height": "max-content",
+                                                "min-height": "min-content",
+                                                "width": "auto"
+                                            }
+                                        }
+                                    ],
+                                    "children": [
+                                        {
+                                            "columnNumber": 1,
+                                            "unit": "%",
+                                            "width": 100
+                                        }
+                                    ],
+                                    "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
+                                    "styleConfig": {
+                                        "external": {
+                                            "display": "contents",
+                                            "width": "100%"
+                                        },
+                                        "internal": {
+                                            "box-sizing": "border-box",
+                                            "grid-template-rows": "1fr",
+                                            "width": "auto"
+                                        }
+                                    }
+                                },
+                                "type": "columnSection"
                             },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "headerSize": {
-                            "type": "JSON_LITERAL",
-                            "value": "lg"
-                        },
-                        "headingLevel": {
-                            "type": "JSON_LITERAL",
-                            "value": 1
-                        },
-                        "hideCellFilter": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideCellFilter"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideCheckboxHover": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideCheckboxHover"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideColumnFiltering": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideColumnFiltering"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideColumnGrouping": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideColumnGrouping"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideColumnResizing": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideColumnResizing"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideColumnSorting": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideColumnSorting"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideDeclarativeActions": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideListActions"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideDragDrop": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideDragAndDrop"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideEmptyStateImage": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideEmptyStateImage"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideFilterPanel": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hidePanelButton"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideFirstPage": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideFirstPage"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideHeader": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideHeader"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideHighlightContent": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideHighlightContent"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideHighlightedValues": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideHighlightedValues"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideInlineEditing": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideInlineEditing"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideLastPage": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideLastPage"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideLastRefreshedText": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideLastRefreshedText"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideLimitSelector": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideRowsPerPageSelector"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideLinks": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideLinks"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideListSharing": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideSharingButton"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideMenuButton": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideMenuButton"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideNextPage": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideNextPage"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideOptionToSaveAs": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideOptionToSaveAs"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hidePages": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hidePages"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hidePagination": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hidePagination"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hidePanelAdvanced": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hidePanelAdvanced"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hidePanelConditionDelete": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hidePanelConditionDelete"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hidePanelFooter": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hidePanelFooter"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hidePanelRestore": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hidePanelRestore"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hidePreviousPage": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hidePreviousPage"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideQuickEdit": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideQuickEdit"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideRange": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideRange"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideRefreshButton": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideRefreshButton"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideRowCount": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideRowCount"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideRowSelector": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideRowSelector"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideSelectAll": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideSelectAll"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideTitle": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideTitle"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "hideTitleRowCount": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideRecordCountBadge"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "highlightContent": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "highlightContent"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "highlightedValueConfigId": {
-                            "binding": {
-                                "address": [
-                                    "highlightedValueConfigId"
-                                ],
-                                "category": "app"
-                            },
-                            "type": "CONTEXT_BINDING"
-                        },
-                        "isRefList": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "hideReferenceLinks"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "limit": {
-                            "type": "JSON_LITERAL",
-                            "value": ""
-                        },
-                        "listCrud": {
-                            "type": "JSON_LITERAL",
-                            "value": {}
-                        },
-                        "listMenuOpen": {
-                            "binding": {
-                                "address": [
-                                    "listMenuOpen"
-                                ]
-                            },
-                            "type": "STATE_BINDING"
-                        },
-                        "listTitle": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "title"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "maxCharLimit": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "maxCharactersValue"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "maxColumns": {
-                            "type": "JSON_LITERAL",
-                            "value": "50"
-                        },
-                        "menuSelection": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "targetTable"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "page": {
-                            "type": "JSON_LITERAL",
-                            "value": 1
-                        },
-                        "query": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "conditions"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "recordSelectedQuery": {
-                            "type": "JSON_LITERAL",
-                            "value": ""
-                        },
-                        "recordSelectedSysId": {
-                            "type": "JSON_LITERAL",
-                            "value": ""
-                        },
-                        "recordSelectedTable": {
-                            "type": "JSON_LITERAL",
-                            "value": ""
-                        },
-                        "recordSelectedView": {
-                            "type": "JSON_LITERAL",
-                            "value": ""
-                        },
-                        "refreshRequested": {
-                            "binding": {
-                                "address": [
-                                    "listRefresh"
-                                ]
-                            },
-                            "type": "STATE_BINDING"
-                        },
-                        "selectedListId": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "selectedListId"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "selectedRecords": {
-                            "type": "JSON_LITERAL",
-                            "value": []
-                        },
-                        "table": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "table"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
-                        },
-                        "tiny": {
-                            "binding": {
-                                "address": [
-                                    "tinyId"
-                                ]
-                            },
-                            "type": "STATE_BINDING"
-                        },
-                        "view": {
-                            "binding": {
-                                "address": [
-                                    "list_nav",
-                                    "view"
-                                ]
-                            },
-                            "type": "ELEMENT_BINDING"
-                        },
-                        "wordWrap": {
-                            "binding": {
-                                "address": [
-                                    "list_navigation_information",
-                                    "listMenuData",
-                                    "wordWrap"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
+                            "version": "1.0.0"
                         }
                     },
                     "slot": "right",
-                    "styles": {}
+                    "styles": null
                 },
                 {
                     "definition": {
@@ -2255,14 +2711,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-16 23:28:00</sys_created_on>
         <sys_id>6a53e4f9832d221028f0e5d0deaad3fd</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>List Gal test</sys_name>
         <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
         <sys_policy/>
         <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
         <sys_update_name>sys_ux_macroponent_6a53e4f9832d221028f0e5d0deaad3fd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-17 20:17:22</sys_updated_on>
+        <sys_updated_on>2025-05-27 23:45:54</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=6a53e4f9832d221028f0e5d0deaad3fd"/>
 </record_update>

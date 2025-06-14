@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Gal Simple List copy">9384098683a1a21028f0e5d0deaad3d8</macroponent>
+        <name>New client script 2</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+(function() {
+	
+	GlideFlow.startAction('x_1488662_gal2.resetsimulacao')
+		.then(function(execution) {
+			return execution.awaitCompletion();
+		}, errorResolver)
+		.then(function(completion) {
+
+			var status = completion.status;
+
+		});
+
+	function errorResolver(error) {
+		// Handle errors in error resolver
+	}
+})();]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 22:21:45</sys_created_on>
+        <sys_id>86814b4c838a261028f0e5d0deaad30b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>New client script 2</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_update_name>sys_ux_client_script_86814b4c838a261028f0e5d0deaad30b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 22:27:29</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

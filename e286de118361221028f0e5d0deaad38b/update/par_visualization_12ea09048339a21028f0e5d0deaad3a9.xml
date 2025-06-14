@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="Single score">d24d53f60350de7a652caf3188a46ed2</macroponent>
+        <name>usuarios assíduos</name>
+        <properties>{"scoreSize":"auto","headingPosition":"top","sparklineStyle":"area","scoreIcon":"","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"newReporting":false,"additionalGroupByConfig":[],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"refreshRequest":"","showAdditionalGroupBySelector":false,"dataPassthrough":null,"sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":30,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":"previous","period":"D","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"filterConfigurations":[],"componentId":"5tqu5ft9","configVersion":"23.0.0-ci-SNAPSHOT","sortBy":"value","colorConfig":{"type":"default"},"dataSources":[{"label":"Sessions","sourceType":"appsee","type":"sessions","data":{"api_key":"d91a66fd3ba056d4677f04e0b5e45aab:635911e2732130107d804c9885f6a78f:485207255c652210370f089e36baa9fb","app":"Next Experience Analytics","childapp":"GAL2","category":"All Sessions","predicateComposition":"","groupByEnabled":false,"trendByEnabled":true,"users":"","orAndStrategy":null},"filterQuery":"{\"and\":[{\"SessionUserSessionIndex\":{\"gte\":5}}]}","users":"","predicateComposition":{"predicate":{"predicateId":"5674f1f5-912c-466a-8b8e-1ddf4b6fdfeb","type":"SINGLE_PREDICATE","predicateProperties":{"selectedProperty":"SessionUserSessionIndex","selectedOperator":["greater_equal"],"selectedValue":["5"],"selectedComponentIdx":0,"rowId":"3ba4c143-34a0-49a8-8ad6-0f3d54038272"}}},"app":"Next Experience Analytics","childapp":"GAL2","category":"Loyal Users","trendByEnabled":true,"groupByEnabled":false,"api_key":"d91a66fd3ba056d4677f04e0b5e45aab:635911e2732130107d804c9885f6a78f:485207255c652210370f089e36baa9fb","orAndStrategy":null,"id":"YXBwc2Vlc2Vzc2lvbnMxNzQ4MDUyMzkyMDIx","dataCategories":["trend","group","simple"]}],"metrics":[{"dataSource":"YXBwc2Vlc2Vzc2lvbnMxNzQ4MDUyMzkyMDIx","id":"WVhCd2MyVmxjMlZ6YzJsdmJuTXhOelE0TURVeU16a3lNREl4MTc0ODA1MjM5MjI2MQ==","numberFormat":{"customFormat":false},"axisId":"primary"}]}</properties>
+        <requested_by/>
+        <scheduled_count>0</scheduled_count>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-24 02:07:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>12ea09048339a21028f0e5d0deaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>usuarios assíduos</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_update_name>par_visualization_12ea09048339a21028f0e5d0deaad3a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-24 02:07:10</sys_updated_on>
+        <type>Single score</type>
+    </par_visualization>
+</record_update>

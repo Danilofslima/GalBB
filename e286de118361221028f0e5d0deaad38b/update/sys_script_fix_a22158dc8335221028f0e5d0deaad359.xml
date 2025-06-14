@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>Atualizar Dados</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[var gr = new GlideRecord('x_1488662_gal2_testcopy');
+gr.addEncodedQuery('alavanca=Dívida Técnica'); // faz filtro um por um da dimensão, apenas os valores que são string serão atualizados.
+gr.query();
+
+// gr.setLimit(1); // test for 1 record after that use 100 or 500 as limit so that browser will not hang
+while (gr.next()) {
+    var rec = new GlideRecord('x_1488662_gal2_dominio');
+
+    rec.initialize();
+
+    // rec.alavanca = '1b4414d08375221028f0e5d0deaad3f9';// Não pega 
+	// rec.alavanca = gr.alavanca;// Não pega 
+    // rec.dimensao = gr.getUniqueValue; // Não funciona
+	// rec.alavanca.sys_id = '1b4414d08375221028f0e5d0deaad3f9';// Não pega 
+	
+    rec.cod_dominio = gr.dominio;// map the field name like this
+
+    rec.insert(); // insert to b table
+
+	gs.addInfoMessage('inserido');
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-24 16:39:13</sys_created_on>
+        <sys_id>a22158dc8335221028f0e5d0deaad359</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Atualizar Dados</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_update_name>sys_script_fix_a22158dc8335221028f0e5d0deaad359</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-24 17:09:05</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>a22158dc8335221028f0e5d0deaad359</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-24 16:39:13</sys_created_on>
+        <sys_id>6882905c8335221028f0e5d0deaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-24 16:39:13</sys_updated_on>
+        <table>sys_script_fix</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

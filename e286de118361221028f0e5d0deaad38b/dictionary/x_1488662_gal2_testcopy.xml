@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1dcb8c188335221028f0e5d0deaad3c5" label="testCopy" max_length="40" name="x_1488662_gal2_testcopy" type="collection">
+        <element label="Dominio" max_length="40" name="dominio" type="string"/>
+        <element label="Dimensao" max_length="40" name="dimensao" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Bullet" max_length="40" name="bullet" type="string"/>
+        <element label="Alavanca" max_length="40" name="alavanca" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="307d46618379221028f0e5d0deaad37a" extends="sys_import_set_row" label="Teste import 3" max_length="40" name="x_1488662_gal2_teste_import_3" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Simulado" label="Simulado" max_length="40" name="u_simulado" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Alavanca" label="Alavanca" max_length="40" name="u_alavanca" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Comentário" label="Comentário" max_length="40" name="u_rplcd_n_ascii_1413417923" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Dimensão" label="Dimensão" max_length="40" name="u_rplcd_n_ascii_566280040" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Maturidade" label="Maturidade" max_length="40" name="u_maturidade" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Dominio" label="Dominio" max_length="40" name="u_dominio" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Concluido" label="Concluido" max_length="40" name="u_concluido" type="string"/>
+        <element attributes="import_attribute_name=Peso" label="Peso " max_length="15" name="u_peso" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Bullet" label="Bullet" max_length="40" name="u_bullet" type="string"/>
+    </element>
+</database>
