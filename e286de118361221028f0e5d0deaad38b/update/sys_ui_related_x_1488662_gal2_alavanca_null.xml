@@ -2,45 +2,73 @@
     <sys_ui_related sys_domain="global" table="x_1488662_gal2_alavanca" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Alavanca - Default view" name="x_1488662_gal2_alavanca" related_list="NULL" sys_domain="global" view="Default view">922c3c8083f5a21028f0e5d0deaad3e0</list_id>
+            <list_id display_value="Alavanca - Default view" name="x_1488662_gal2_alavanca" related_list="NULL" sys_domain="global" view="Default view">8576fcb0837a221028f0e5d0deaad305</list_id>
             <order_by/>
             <position>0</position>
-            <related_list>x_1488662_gal2_bullet.alavanca</related_list>
-            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-24 01:02:43</sys_created_on>
-            <sys_id>122c3c8083f5a21028f0e5d0deaad3e1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-24 01:02:43</sys_updated_on>
-        </sys_ui_related_list_entry>
-        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="Alavanca - Default view" name="x_1488662_gal2_alavanca" related_list="NULL" sys_domain="global" view="Default view">922c3c8083f5a21028f0e5d0deaad3e0</list_id>
-            <order_by/>
-            <position>1</position>
             <related_list>x_1488662_gal2_dimensao.alavanca</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-24 01:02:43</sys_created_on>
-            <sys_id>162c3c8083f5a21028f0e5d0deaad3e1</sys_id>
+            <sys_created_on>2025-07-15 01:36:01</sys_created_on>
+            <sys_id>0576fcb0837a221028f0e5d0deaad306</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-24 01:02:43</sys_updated_on>
+            <sys_updated_on>2025-07-15 01:36:01</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Alavanca - Default view" name="x_1488662_gal2_alavanca" related_list="NULL" sys_domain="global" view="Default view">922c3c8083f5a21028f0e5d0deaad3e0</list_id>
+            <list_id display_value="Alavanca - Default view" name="x_1488662_gal2_alavanca" related_list="NULL" sys_domain="global" view="Default view">8576fcb0837a221028f0e5d0deaad305</list_id>
             <order_by/>
-            <position>2</position>
+            <position>1</position>
             <related_list>x_1488662_gal2_dominio.alavanca</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-24 01:02:43</sys_created_on>
-            <sys_id>1a2c3c8083f5a21028f0e5d0deaad3e1</sys_id>
+            <sys_created_on>2025-07-15 01:36:01</sys_created_on>
+            <sys_id>0976fcb0837a221028f0e5d0deaad306</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-24 01:02:43</sys_updated_on>
+            <sys_updated_on>2025-07-15 01:36:01</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Alavanca - Default view" name="x_1488662_gal2_alavanca" related_list="NULL" sys_domain="global" view="Default view">8576fcb0837a221028f0e5d0deaad305</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_1488662_gal2_bullet.alavanca</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-15 01:36:01</sys_created_on>
+            <sys_id>0d76fcb0837a221028f0e5d0deaad306</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-15 01:36:01</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Alavanca - Default view" name="x_1488662_gal2_alavanca" related_list="NULL" sys_domain="global" view="Default view">8576fcb0837a221028f0e5d0deaad305</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>x_1488662_gal2_fec_alavanca3.alavanca</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-15 01:36:01</sys_created_on>
+            <sys_id>0176fcb0837a221028f0e5d0deaad307</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-15 01:36:01</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Alavanca - Default view" name="x_1488662_gal2_alavanca" related_list="NULL" sys_domain="global" view="Default view">8576fcb0837a221028f0e5d0deaad305</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>REL:55c5f4f0837a221028f0e5d0deaad38b</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-15 01:36:01</sys_created_on>
+            <sys_id>89767434837a221028f0e5d0deaad347</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-15 01:36:01</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Alavanca - Default view</calculated_name>
@@ -51,10 +79,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-24 01:02:43</sys_created_on>
+            <sys_created_on>2025-07-15 01:36:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>922c3c8083f5a21028f0e5d0deaad3e0</sys_id>
+            <sys_id>8576fcb0837a221028f0e5d0deaad305</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Alavanca - Default view</sys_name>
             <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
@@ -62,7 +90,7 @@
             <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
             <sys_update_name>sys_ui_related_x_1488662_gal2_alavanca_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-24 01:02:43</sys_updated_on>
+            <sys_updated_on>2025-07-15 01:36:01</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

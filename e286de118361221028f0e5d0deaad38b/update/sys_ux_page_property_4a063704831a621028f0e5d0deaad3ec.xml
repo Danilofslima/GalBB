@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>menu</name>
+        <page display_value="GAL2">485207255c652210370f089e36baa9fb</page>
+        <required_translations/>
+        <route/>
+        <suffix>menu</suffix>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-18 11:06:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>4a063704831a621028f0e5d0deaad3ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>menu</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_update_name>sys_ux_page_property_4a063704831a621028f0e5d0deaad3ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-18 11:06:30</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1488662_gal2.485207255c652210370f089e36baa9fb.root.global.menu</unique_name>
+        <value>12345</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=4a063704831a621028f0e5d0deaad3ec"/>
+</record_update>

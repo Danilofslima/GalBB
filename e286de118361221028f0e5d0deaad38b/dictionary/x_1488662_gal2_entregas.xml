@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="06cd2078833a221028f0e5d0deaad3ed" extends="task" label="Entregas" max_length="40" name="x_1488662_gal2_entregas" type="collection">
+        <element label="Dimensao" max_length="32" name="dimensao" reference="x_1488662_gal2_dimensao" type="reference"/>
+        <element label="AlavancaRef" max_length="32" name="alavancaref" reference="x_1488662_gal2_alavanca" type="reference"/>
+        <element label="Codigo Bullet" max_length="32" name="codigo_bullet" reference="x_1488662_gal2_bullet" type="reference"/>
+        <element label="Simular Bullets" max_length="4000" name="simular_bullets" reference="x_1488662_gal2_bullet" type="glide_list"/>
+        <element label="Dominio" max_length="32" name="dominio" reference="x_1488662_gal2_dominio" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.codigo_bullet.alavanca.cod_alavanca;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Alavanca" max_length="32" name="alavanca" type="string" virtual="true"/>
+    </element>
+</database>

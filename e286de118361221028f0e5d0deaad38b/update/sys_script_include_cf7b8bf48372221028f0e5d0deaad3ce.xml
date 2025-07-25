@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1488662_gal2.SigaUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>SigaUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var SigaUtils = Class.create();
+SigaUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+  getBulletInfo: function() {
+    var cbullet = this.getParameter('sysparm_bullet');
+
+    var result = {
+      alavanca: '',
+      dimensao: '',
+      dominio: ''
+    };
+
+    var gr = new GlideRecord('x_1488662_gal2_bullet');
+    gr.addQuery('sys_id', cbullet);
+    gr.query();
+
+    if (gr.next()) {
+      result.alavanca = gr.getValue('alavanca');   // replace with correct field name
+      result.dimensao = gr.getValue('dimensao');
+      result.dominio = gr.getValue('dominio');
+    }
+
+    return JSON.stringify(result); // ]]>👈<![CDATA[ Important: return as JSON string
+  },
+
+  type: 'SigaUtils'
+});
+
+
+// var SigaUtils = Class.create();
+// SigaUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+  
+//   getDimension: function() {
+//     var cbullet = this.getParameter('sysparm_bullet');
+    
+//     if (!cbullet) {
+//       return '';
+//     }
+
+//     var grBullet = new GlideRecord('x_1488662_gal2_bullet');
+//     grBullet.addQuery('sys_id', cbullet);
+//     grBullet.query();
+
+//     if (grBullet.next()) {
+//       return grBullet.getValue('dimensao'); // ✅ Use getValue instead of getDisplayValue
+//     }
+
+//     return '';
+//   },
+
+//   type: 'SigaUtils'
+// });]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 12:28:58</sys_created_on>
+        <sys_id>cf7b8bf48372221028f0e5d0deaad3ce</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>SigaUtils</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_update_name>sys_script_include_cf7b8bf48372221028f0e5d0deaad3ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 17:11:18</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>cf7b8bf48372221028f0e5d0deaad3ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 12:28:58</sys_created_on>
+        <sys_id>fdeb87b48372221028f0e5d0deaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 12:28:58</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

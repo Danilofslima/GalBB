@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_1488662_gal2_alavanca</basic_apply_to>
+        <basic_query_from>x_1488662_gal2_entregas</basic_query_from>
+        <insert_callback/>
+        <name>Entregas</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+var arr = [];
+	var grBullet = new GlideRecord (current.getTableName());
+	grBullet.addQuery('alavanca', parent.cod_alavanca);
+	grBullet.query();
+
+	while (grBullet.next()) {
+		arr.push(grBullet.getUniqueValue());
+	}
+
+	current.addEncodedQuery('sys_idIN'+arr.join(","));
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 01:35:09</sys_created_on>
+        <sys_id>55c5f4f0837a221028f0e5d0deaad38b</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Entregas</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_update_name>sys_relationship_55c5f4f0837a221028f0e5d0deaad38b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 01:47:00</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=55c5f4f0837a221028f0e5d0deaad38b"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>55c5f4f0837a221028f0e5d0deaad38b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 01:35:09</sys_created_on>
+        <sys_id>1446b0f0837a221028f0e5d0deaad3b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 01:35:09</sys_updated_on>
+        <table>sys_relationship</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

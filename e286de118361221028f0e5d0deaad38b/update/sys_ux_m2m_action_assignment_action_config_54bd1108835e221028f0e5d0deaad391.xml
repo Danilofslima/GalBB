@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_action_assignment_action_config">
+    <sys_ux_m2m_action_assignment_action_config action="INSERT_OR_UPDATE">
+        <action_assignment display_value="excluir">4da80ba3830a221028f0e5d0deaad32f</action_assignment>
+        <action_configuration display_value="Action GAL">498d1dc4835e221028f0e5d0deaad36c</action_configuration>
+        <sys_class_name>sys_ux_m2m_action_assignment_action_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-18 00:01:26</sys_created_on>
+        <sys_id>54bd1108835e221028f0e5d0deaad391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_update_name>sys_ux_m2m_action_assignment_action_config_54bd1108835e221028f0e5d0deaad391</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-18 00:01:26</sys_updated_on>
+    </sys_ux_m2m_action_assignment_action_config>
+</record_update>

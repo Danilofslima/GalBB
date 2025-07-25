@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="129bcfe08372221028f0e5d0deaad37f" label="FEC Alavanca3" max_length="40" name="x_1488662_gal2_fec_alavanca3" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;var aad = current.year + &quot;Q&quot;+ current.quarter;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return aad.toString();  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="yearQuarter" max_length="7" name="yearquarter" type="string" virtual="true"/>
+        <element label="Year" max_length="4" name="year" type="string"/>
+        <element label="Indice de Maturidade" max_length="40" name="indice_de_maturidade" type="float"/>
+        <element choice="1" label="Quarter" max_length="40" name="quarter" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Q2" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Q4" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Q1" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Q3" sequence="300" value="3"/>
+            </choice>
+        </element>
+        <element label="Alavanca" max_length="32" name="alavanca" reference="x_1488662_gal2_alavanca" type="reference"/>
+        <index name="index">
+            <element name="alavanca"/>
+        </index>
+    </element>
+</database>

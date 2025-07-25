@@ -6,6 +6,12 @@
                 <element inactive_on_update="false" label="Não" sequence="200" value="N"/>
             </choice>
         </element>
+        <element choice="1" label="TESTE" max_length="40" name="teste" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Não" sequence="200" value="n"/>
+                <element inactive_on_update="false" label="Sim" sequence="100" value="s"/>
+            </choice>
+        </element>
         <element choice="1" label="COD Maturidade" max_length="40" name="cod_maturidade" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Moderado" sequence="200" value="Moderado"/>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d82283e48332221028f0e5d0deaad33e" label="FEC Alavanca" max_length="40" name="x_1488662_gal2_fec_alavanca" type="collection">
+        <element label="Alavanca" max_length="40" name="alavanca" type="float"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;var aad = current.year + &quot;Q&quot;+ current.quarter;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return aad.toString();  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="AnoTrim" max_length="7" name="anotrim" type="string" virtual="true"/>
+        <element label="Year" max_length="4" name="year" type="string"/>
+        <element choice="1" label="Quarter" max_length="40" name="quarter" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Q4" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Q3" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Q2" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Q1" sequence="100" value="1"/>
+            </choice>
+        </element>
+        <element label="Data de Referencia" max_length="40" name="data_de_referencia" type="glide_date_time"/>
+        <element label="Divida Tecnica" max_length="40" name="divida_tecnica" type="float"/>
+        <element label="Observabilidade" max_length="40" name="observabilidade" type="float"/>
+        <element label="DevSecOps" max_length="40" name="devsecops" type="float"/>
+        <element label="Cloud" max_length="40" name="cloud" type="float"/>
+    </element>
+</database>

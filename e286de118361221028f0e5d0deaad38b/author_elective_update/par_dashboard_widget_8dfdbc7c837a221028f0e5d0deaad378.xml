@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">8dfd3c3c837a221028f0e5d0deaad34a</canvas>
+        <component display_value="Rich text">2d56f06d55f46bbd4e79b5e624beb940</component>
+        <component_props>{"html":"&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;3&amp;deg;T 24&lt;br&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=\"font-family: tahoma, arial, helvetica, sans-serif; font-size: 18pt; color: rgb(53, 152, 219);\"&gt;Maturidade&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;","id":"html","value":"&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;3&amp;deg;T 24&lt;br&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=\"font-family: tahoma, arial, helvetica, sans-serif; font-size: 18pt; color: rgb(53, 152, 219);\"&gt;Maturidade&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;","noDebounce":true,"propLabel":"HTML"}</component_props>
+        <h>5</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 02:08:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8dfdbc7c837a221028f0e5d0deaad378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_update_name>par_dashboard_widget_8dfdbc7c837a221028f0e5d0deaad378</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 02:08:46</sys_updated_on>
+        <visualization/>
+        <w>5</w>
+        <widget_props/>
+        <x>12</x>
+        <y>4</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GAL2">e286de118361221028f0e5d0deaad38b</application>
+        <file_path/>
+        <instance_id>d91a66fd3ba056d4677f04e0b5e45aab</instance_id>
+        <instance_name>dev288455</instance_name>
+        <name>par_dashboard_widget_8dfdbc7c837a221028f0e5d0deaad378</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">8dfd3c3c837a221028f0e5d0deaad34a</canvas><component display_value="Rich text">2d56f06d55f46bbd4e79b5e624beb940</component><component_props>{"html":"&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;3&amp;deg;T 24&lt;br&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=\"font-family: tahoma, arial, helvetica, sans-serif; font-size: 18pt; color: rgb(53, 152, 219);\"&gt;Maturidade&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;","id":"html","value":"&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;3&amp;deg;T 24&lt;br&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=\"font-family: tahoma, arial, helvetica, sans-serif; font-size: 18pt; color: rgb(53, 152, 219);\"&gt;Maturidade&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;","noDebounce":true,"propLabel":"HTML"}</component_props><h>5</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-15 02:08:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8dfdbc7c837a221028f0e5d0deaad378</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package><sys_policy/><sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope><sys_update_name>par_dashboard_widget_8dfdbc7c837a221028f0e5d0deaad378</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-15 02:08:46</sys_updated_on><visualization/><w>5</w><widget_props/><x>12</x><y>4</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-826652828</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>07231bbd8329621028f0e5d0deaad370</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 02:08:46</sys_created_on>
+        <sys_id>8dfdbc7c837a221028f0e5d0deaad37a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1980bd776850000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 02:08:46</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>81fdbc7cf27a2210ae1c5dcea6540e7a</update_guid>
+        <update_guid_history>81fdbc7cf27a2210ae1c5dcea6540e7a:-826652828</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">91fdbc7c837a221028f0e5d0deaad3d2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 02:08:48</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>780d8c943e634eb8980491cfb037e110</sys_id>
+        <sys_metadata>8dfdbc7c837a221028f0e5d0deaad378</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_scope_delete display_value="">0ed54e15a6bc4d20818b77f6d988e400</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_8dfdbc7c837a221028f0e5d0deaad378</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_8dfdbc7c837a221028f0e5d0deaad378">8dfdbc7c837a221028f0e5d0deaad37a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 02:08:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

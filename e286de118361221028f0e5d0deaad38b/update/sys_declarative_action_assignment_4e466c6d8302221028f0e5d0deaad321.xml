@@ -68,14 +68,14 @@
 	}
 	
 })();]]></server_script>
-        <specificity>1</specificity>
+        <specificity>21</specificity>
         <sys_class_name>sys_declarative_action_assignment</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-10 01:34:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4e466c6d8302221028f0e5d0deaad321</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>callaction</sys_name>
         <sys_overrides/>
         <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
@@ -83,8 +83,8 @@
         <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
         <sys_update_name>sys_declarative_action_assignment_4e466c6d8302221028f0e5d0deaad321</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-10 02:26:50</sys_updated_on>
-        <table>global</table>
+        <sys_updated_on>2025-06-16 14:03:18</sys_updated_on>
+        <table>x_1488662_gal2_simulacao</table>
         <tooltip/>
         <ui_component/>
         <view/>

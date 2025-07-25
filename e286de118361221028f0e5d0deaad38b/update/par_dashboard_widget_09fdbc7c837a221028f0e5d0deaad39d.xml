@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">8dfd3c3c837a221028f0e5d0deaad34a</canvas>
+        <component display_value="Rich text">2d56f06d55f46bbd4e79b5e624beb940</component>
+        <component_props>{"html":"&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;3&amp;deg;T 24&lt;br&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=\"font-family: tahoma, arial, helvetica, sans-serif; font-size: 18pt; color: rgb(53, 152, 219);\"&gt;Maturidade&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;","id":"html","value":"&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;3&amp;deg;T 24&lt;br&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=\"font-family: tahoma, arial, helvetica, sans-serif; font-size: 18pt; color: rgb(53, 152, 219);\"&gt;Maturidade&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;","noDebounce":true,"propLabel":"HTML"}</component_props>
+        <h>5</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 02:08:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>09fdbc7c837a221028f0e5d0deaad39d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_update_name>par_dashboard_widget_09fdbc7c837a221028f0e5d0deaad39d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 02:08:47</sys_updated_on>
+        <visualization/>
+        <w>5</w>
+        <widget_props/>
+        <x>12</x>
+        <y>4</y>
+    </par_dashboard_widget>
+</record_update>
