@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>description</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 13:14:19</sys_created_on>
+        <sys_id>a1e280b28387261028f0e5d0deaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_a1e280b28387261028f0e5d0deaad3bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 13:14:19</sys_updated_on>
+        <table>x_1488662_gal2_entregas</table>
+        <ui_policy display_value="read only for non admin v2">2fc0c8be8347261028f0e5d0deaad35b</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=a1e280b28387261028f0e5d0deaad3bf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GAL2">e286de118361221028f0e5d0deaad38b</application>
+        <file_path/>
+        <instance_id>d91a66fd3ba056d4677f04e0b5e45aab</instance_id>
+        <instance_name>dev288455</instance_name>
+        <name>sys_ui_policy_action_a1e280b28387261028f0e5d0deaad3bf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>false</disabled><field>description</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-02 13:14:19</sys_created_on><sys_id>a1e280b28387261028f0e5d0deaad3bf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>description</sys_name><sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package><sys_policy/><sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope><sys_update_name>sys_ui_policy_action_a1e280b28387261028f0e5d0deaad3bf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-02 13:14:19</sys_updated_on><table>x_1488662_gal2_entregas</table><ui_policy display_value="read only for non admin v2">2fc0c8be8347261028f0e5d0deaad35b</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=a1e280b28387261028f0e5d0deaad3bf"/></record_update>]]></payload>
+        <payload_hash>-1798161078</payload_hash>
+        <record_name>description</record_name>
+        <reverted_from/>
+        <source>07231bbd8329621028f0e5d0deaad370</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 13:14:19</sys_created_on>
+        <sys_id>2de280b28387261028f0e5d0deaad3c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1986aeb420b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 13:14:19</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>21e280b27087261064525dac35fb70c1</update_guid>
+        <update_guid_history>21e280b27087261064525dac35fb70c1:-1798161078</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 13:16:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>73de8a4bfbf04d5882b3af25a847fac4</sys_id>
+        <sys_metadata>a1e280b28387261028f0e5d0deaad3bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_parent display_value="read only for non admin v2">2fc0c8be8347261028f0e5d0deaad35b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_scope_delete display_value="">0ed54e15a6bc4d20818b77f6d988e400</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_a1e280b28387261028f0e5d0deaad3bf</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_a1e280b28387261028f0e5d0deaad3bf">2de280b28387261028f0e5d0deaad3c1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 13:16:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

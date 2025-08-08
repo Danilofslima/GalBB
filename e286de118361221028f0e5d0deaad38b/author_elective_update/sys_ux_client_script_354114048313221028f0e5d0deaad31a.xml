@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes>8f0ec3492c5f441781f1f44f36351242</includes>
+        <macroponent display_value="Default">9d46b8fe834b261028f0e5d0deaad3db</macroponent>
+        <name>Apply FIlters2</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[function handler({ api, event, helpers, imports }) {
+	const mergePARFiltersV2 = imports["global.mergePARFilters"]().v2;
+	const { appliedFilters } = event.payload;
+	api.setState("parFilters2", ({ currentValue, api }) => {
+		const { parFilters2, teste2 } = mergePARFiltersV2(
+			currentValue,
+			appliedFilters
+		);
+		api.setState("teste2", teste2);
+		return parFilters2;
+	});
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-06 16:36:31</sys_created_on>
+        <sys_id>354114048313221028f0e5d0deaad31a</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Apply FIlters2</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_update_name>sys_ux_client_script_354114048313221028f0e5d0deaad31a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 18:42:10</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GAL2">e286de118361221028f0e5d0deaad38b</application>
+        <file_path/>
+        <instance_id>d91a66fd3ba056d4677f04e0b5e45aab</instance_id>
+        <instance_name>dev288455</instance_name>
+        <name>sys_ux_client_script_354114048313221028f0e5d0deaad31a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes&gt;8f0ec3492c5f441781f1f44f36351242&lt;/includes&gt;&lt;macroponent display_value="Default"&gt;9d46b8fe834b261028f0e5d0deaad3db&lt;/macroponent&gt;&lt;name&gt;Apply FIlters2&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[function handler({ api, event, helpers, imports }) {
+	const mergePARFiltersV2 = imports["global.mergePARFilters"]().v2;
+	const { appliedFilters } = event.payload;
+	api.setState("parFilters2", ({ currentValue, api }) =&gt; {
+		const { parFilters2, teste2 } = mergePARFiltersV2(
+			currentValue,
+			appliedFilters
+		);
+		api.setState("teste2", teste2);
+		return parFilters2;
+	});
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-06 16:36:31&lt;/sys_created_on&gt;&lt;sys_id&gt;354114048313221028f0e5d0deaad31a&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;Apply FIlters2&lt;/sys_name&gt;&lt;sys_package display_value="GAL2" source="x_1488662_gal2"&gt;e286de118361221028f0e5d0deaad38b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GAL2"&gt;e286de118361221028f0e5d0deaad38b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_354114048313221028f0e5d0deaad31a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-07 18:42:10&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1247591006</payload_hash>
+        <record_name>Apply FIlters2</record_name>
+        <reverted_from/>
+        <source>07231bbd8329621028f0e5d0deaad370</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 18:42:10</sys_created_on>
+        <sys_id>7ced76d0831b221028f0e5d0deaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19885d736da0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 18:42:10</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>f0ed76d0811b2210863502925bdd45e5</update_guid>
+        <update_guid_history>f0ed76d0811b2210863502925bdd45e5:-1247591006,ed5db2502c1b221087765dcd75e85d82:-91323725,c68c7250d81b2210f197e760e6db52a0:-2133468515,92f4aa547497221098e6fc70eeabb566:324072863,25946254c4972210292aa3b431d0fd91:-50080215,840231888bd72210ad17f95ecfd1f5a1:-245065915,2e87dd8878572210581c415445b27e5e:937182437</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-08 14:20:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>0bde1e04b87847c0a4e9e0c5e316ec40</sys_id>
+        <sys_metadata>354114048313221028f0e5d0deaad31a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Apply FIlters2</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_scope_delete display_value="">0ed54e15a6bc4d20818b77f6d988e400</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_354114048313221028f0e5d0deaad31a</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_354114048313221028f0e5d0deaad31a">7ced76d0831b221028f0e5d0deaad3e5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-08 14:20:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

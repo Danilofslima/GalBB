@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "column_layout_1",
+        "elementLabel": "Column layout 1",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "__cmdulhhtihaajjccuddffiiiieepqaavjcbb__column_1",
+                    "elementLabel": "Column 1",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "4e24b0556fdcf0a629b41408a5b98d86",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "kanban_board_1",
+                                "elementLabel": "Kanban Board 1",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "arrowNavigableElements": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "cardConfigOverride": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {}
+                                    },
+                                    "cardDragPlaceholderTag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "cardDraggable": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "cardDropPlaceholderTag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "cardTag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "cards": {
+                                        "type": "JSON_LITERAL",
+                                        "value": []
+                                    },
+                                    "cellHeaderTag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "sn-vtb-cell-header"
+                                    },
+                                    "cellHeaders": {
+                                        "type": "JSON_LITERAL",
+                                        "value": []
+                                    },
+                                    "cloneMode": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "customScrollOptions": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {}
+                                    },
+                                    "daActionMapping": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {}
+                                    },
+                                    "daClientActionContract": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "dependencyLines": {
+                                        "type": "JSON_LITERAL",
+                                        "value": []
+                                    },
+                                    "enableDependencyLines": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "laneConfigOverride": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {}
+                                    },
+                                    "laneDragPlaceholderTag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "laneDraggable": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "laneDropPlaceholderTag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "laneFooterTag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "end"
+                                    },
+                                    "laneHeaderTag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "sn-vtb-lane-header"
+                                    },
+                                    "lanes": {
+                                        "type": "JSON_LITERAL",
+                                        "value": [
+                                            {
+                                                "_style_": {
+                                                    "lane-footer-container": {
+                                                        "bottom": "30px",
+                                                        "position": "sticky"
+                                                    },
+                                                    "sn-lane": {
+                                                        "height": "calc(100% - 58px)",
+                                                        "overflow-y": "auto",
+                                                        "padding": "3px",
+                                                        "width": "285px"
+                                                    }
+                                                },
+                                                "id": "f7ff977c73c820101e217152a7f6a74f",
+                                                "name": "To Do",
+                                                "options": {
+                                                    "board_type": "FREEFORM",
+                                                    "can_add_task": true,
+                                                    "highest_lane_order": 2,
+                                                    "is2DBoard": false,
+                                                    "lane_count": 3,
+                                                    "lane_field": "__KANBAN__",
+                                                    "lane_filter": "",
+                                                    "swimlane_field": "",
+                                                    "table": "vtb_task",
+                                                    "total_lane_count": 3
+                                                },
+                                                "title": "To Do"
+                                            },
+                                            {
+                                                "_style_": {
+                                                    "lane-footer-container": {
+                                                        "bottom": "30px",
+                                                        "position": "sticky"
+                                                    },
+                                                    "sn-lane": {
+                                                        "height": "calc(100% - 58px)",
+                                                        "overflow-y": "auto",
+                                                        "padding": "3px",
+                                                        "width": "285px"
+                                                    }
+                                                },
+                                                "id": "3bff977c73c820101e217152a7f6a750",
+                                                "name": "Doing",
+                                                "options": {
+                                                    "board_type": "FREEFORM",
+                                                    "can_add_task": true,
+                                                    "highest_lane_order": 2,
+                                                    "is2DBoard": false,
+                                                    "lane_count": 3,
+                                                    "lane_field": "__KANBAN__",
+                                                    "lane_filter": "",
+                                                    "swimlane_field": "",
+                                                    "table": "vtb_task",
+                                                    "total_lane_count": 3
+                                                },
+                                                "title": "Doing"
+                                            },
+                                            {
+                                                "_style_": {
+                                                    "lane-footer-container": {
+                                                        "bottom": "30px",
+                                                        "position": "sticky"
+                                                    },
+                                                    "sn-lane": {
+                                                        "height": "calc(100% - 58px)",
+                                                        "overflow-y": "auto",
+                                                        "padding": "3px",
+                                                        "width": "285px"
+                                                    }
+                                                },
+                                                "id": "37ff977c73c820101e217152a7f6a751",
+                                                "name": "Done",
+                                                "options": {
+                                                    "board_type": "FREEFORM",
+                                                    "can_add_task": true,
+                                                    "highest_lane_order": 2,
+                                                    "is2DBoard": false,
+                                                    "lane_count": 3,
+                                                    "lane_field": "__KANBAN__",
+                                                    "lane_filter": "",
+                                                    "swimlane_field": "",
+                                                    "table": "vtb_task",
+                                                    "total_lane_count": 3
+                                                },
+                                                "title": "Done"
+                                            }
+                                        ]
+                                    },
+                                    "loadTagsFromUxf": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "rowLaneConfig": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {}
+                                    },
+                                    "rowLaneHeaderTag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "sn-vtb-lane-header"
+                                    },
+                                    "showSwimlaneAsRow": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "styles": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {}
+                                    },
+                                    "swimlaneConfigOverride": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {}
+                                    },
+                                    "swimlaneDragPlaceholderTag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "swimlaneDraggable": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "swimlaneDropPlaceholderTag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "swimlaneHeaderCloneTag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "swimlaneHeaderTag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "swimlanes": {
+                                        "type": "JSON_LITERAL",
+                                        "value": []
+                                    },
+                                    "useArrowNavigation": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "wrapperDomEvents": {
+                                        "type": "JSON_LITERAL",
+                                        "value": []
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "kanban_board_1",
+                                        "styles": {}
+                                    }
+                                ],
+                                "root": null,
+                                "rules": {
+                                    "flex-direction": "row"
+                                },
+                                "styles": {
+                                    "align-items": "stretch",
+                                    "box-sizing": "border-box",
+                                    "flex-direction": "column",
+                                    "height": "100%",
+                                    "justify-content": "flex-start",
+                                    "overflow": "auto"
+                                },
+                                "type": "flex"
+                            },
+                            "version": "3.0.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "hideEmptyStateUi": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "slotWrapperBehavior": {
+                            "type": "JSON_LITERAL",
+                            "value": "contents"
+                        }
+                    },
+                    "scratchPad": {
+                        "uib": {
+                            "layout": {
+                                "column": {
+                                    "columnNumber": 2,
+                                    "id": "default",
+                                    "styleConfig": {
+                                        "external": {
+                                            "display": "contents",
+                                            "width": "100%"
+                                        },
+                                        "internal": {
+                                            "align-items": "stretch",
+                                            "box-sizing": "border-box",
+                                            "flex-direction": "column",
+                                            "height": "100%",
+                                            "justify-content": "flex-start",
+                                            "overflow": "auto"
+                                        }
+                                    }
+                                },
+                                "type": "column"
+                            },
+                            "version": "1.0.0"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "isInline": null,
+                    "items": [
+                        {
+                            "element_id": "__cmdulhhtihaajjccuddffiiiieepqaavjcbb__column_1",
+                            "styles": {
+                                "display": "contents",
+                                "width": "100%"
+                            }
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "box-sizing": "border-box",
+                        "grid-template-columns": "100fr",
+                        "grid-template-rows": "1fr",
+                        "width": "auto"
+                    },
+                    "type": "grid"
+                },
+                "queries": [
+                    {
+                        "layout": {
+                            "children": null,
+                            "isInline": null,
+                            "items": [],
+                            "root": null,
+                            "rules": null,
+                            "styles": {
+                                "box-sizing": "border-box",
+                                "grid-template-columns": "1fr",
+                                "grid-template-rows": "1fr",
+                                "height": "fit-content",
+                                "max-height": "max-content",
+                                "min-height": "min-content",
+                                "width": "auto"
+                            },
+                            "type": "grid"
+                        },
+                        "query": {
+                            "max-width": 640
+                        }
+                    }
+                ],
+                "version": "3.0.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "contents"
+            }
+        },
+        "scratchPad": {
+            "uib": {
+                "layout": {
+                    "columnSection": {
+                        "breakpoints": [
+                            {
+                                "behavior": "stack",
+                                "max-width": 640,
+                                "styles": {
+                                    "box-sizing": "border-box",
+                                    "grid-template-columns": "1fr",
+                                    "grid-template-rows": "1fr",
+                                    "height": "fit-content",
+                                    "max-height": "max-content",
+                                    "min-height": "min-content",
+                                    "width": "auto"
+                                }
+                            }
+                        ],
+                        "children": [
+                            {
+                                "columnNumber": 1,
+                                "unit": "%",
+                                "width": 100
+                            }
+                        ],
+                        "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
+                        "styleConfig": {
+                            "external": {
+                                "display": "contents",
+                                "width": "100%"
+                            },
+                            "internal": {
+                                "box-sizing": "border-box",
+                                "grid-template-rows": "1fr",
+                                "width": "auto"
+                            }
+                        }
+                    },
+                    "type": "columnSection"
+                },
+                "version": "1.0.0"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "REPEATER",
+            "type": "REPEATER"
+        },
+        "elementId": "repeater_1",
+        "elementLabel": "Repeater 1",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "stylized_text_1",
+                    "elementLabel": "Stylized text 1",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": {
+                        "controllerElementId": "form_1",
+                        "disabledEventTargetIds": [],
+                        "id": "9586ab8504f82b150ece43f8152c4f25"
+                    },
+                    "propertyValues": {
+                        "configAria": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ]
+        },
+        "preset": {
+            "controllerElementId": "form_1",
+            "disabledEventTargetIds": [],
+            "id": "8bbec89bce311554517350ae545d6a9b"
+        },
+        "propertyValues": {},
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "definition": {
+            "id": "029f04e053610110ac9bddeeff7b1294",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {},
+        "elementId": "form_1",
+        "elementLabel": "Form 1",
+        "eventMappings": [],
+        "inputValues": {
+            "actionConfigId": {
+                "binding": {
+                    "address": [
+                        "actionConfigId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "activityLogs": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "detailsContext": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "fields": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "forcedViewName": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "headerConfigId": {
+                "binding": {
+                    "address": [
+                        "headerConfigId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "highlightedValueConfigId": {
+                "binding": {
+                    "address": [
+                        "highlightedValueConfigId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputActionLayoutId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "inputExtraParams": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "inputQuery": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "inputSysId": {
+                "type": "JSON_LITERAL",
+                "value": "9c74ac2f5ca712104f3496f8659cf6a7"
+            },
+            "inputTable": {
+                "type": "JSON_LITERAL",
+                "value": "task"
+            },
+            "isMappedToAppShell": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "overrideAppContextConfigIds": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "requireExplicitEventMapping": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "ribbonConfigId": {
+                "binding": {
+                    "address": [
+                        "ribbonConfigId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "screen": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "selectedTabIndex": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "shouldDisplayFormErrorsAsPageAlerts": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "shouldSuppressGlobalEvents": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "skipRelatedListEval": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "userPrefs": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "view": {
+                "binding": {
+                    "address": [
+                        "view"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "viewRuleConfigId": {
+                "binding": {
+                    "address": [
+                        "viewRuleConfigId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <form_factors>{}</form_factors>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "column_layout_1",
+                "styles": {
+                    "display": "contents",
+                    "width": "100%"
+                }
+            },
+            {
+                "element_id": "repeater_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default</name>
+        <output_prop_mapping/>
+        <props>[]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 18:29:48</sys_created_on>
+        <sys_id>3e1b49ba83cb261028f0e5d0deaad327</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_update_name>sys_ux_macroponent_3e1b49ba83cb261028f0e5d0deaad327</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 19:28:19</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=3e1b49ba83cb261028f0e5d0deaad327"/>
+</record_update>

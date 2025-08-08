@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">9d46b8fe834b261028f0e5d0deaad3db</macroponent>
+        <name>dropdown_1/items</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) { 
+  var jsonObj = api.data.bullet_alavanca.output; 
+  var numOfLoc = jsonObj.data.GlideAggregate_Query.length; 
+  var locArr = []; 
+  
+  for (var i = 0; i < numOfLoc; i++) { 
+    var loc = { id: jsonObj.data.GlideAggregate_Query[i].groupBy[0].value, 
+    label: jsonObj.data.GlideAggregate_Query[i].groupBy[0].displayValue 
+    } 
+    locArr.push(loc); 
+    } 
+return JSON.stringify(locArr); } ]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-06 11:36:50</sys_created_on>
+        <sys_id>bd4114048313221028f0e5d0deaad319</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>dropdown_1/items</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_update_name>sys_ux_client_script_bd4114048313221028f0e5d0deaad319</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-06 11:36:50</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>

@@ -145,6 +145,212 @@
                                 },
                                 "slot": null,
                                 "styles": null
+                            },
+                            {
+                                "definition": {
+                                    "id": "844d56291d91b330f2269558e3f47701",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "button_iconic_1",
+                                "elementLabel": "Button iconic 1",
+                                "eventMappings": [
+                                    {
+                                        "eventMappingId": "cmdniiirffggaabbwtddffiiiizehbnddiim",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "sn_button.NOW_BUTTON_ICONIC#CLICKED",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "sn_button.NOW_BUTTON_ICONIC#CLICKED",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "x_1488662_gal2.NAV_ITEM_SELECTED_RELAY_b9a2cb258365221028f0e5d0deaad346",
+                                                    "payload": {
+                                                        "script": {
+                                                            "apiVersion": "1.0.0",
+                                                            "controllerElementId": null,
+                                                            "inlineScript": "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n*/\nfunction evaluateEvent({api, event}) {\n\treturn {\n\t\troute: gs.getProperty('glide.servlet.uri') + \"123456\",\n\t\tfields: null,\n\t\tparams: null,\n\t\tredirect: null,\n\t\tpassiveNavigation: null,\n\t\ttitle: null,\n\t\tmultiInstField: null,\n\t\ttargetRoute: null,\n\t\texternal: null,\n\t\tnavigationOptions: null\n\t};\n}",
+                                                            "scriptSysId": null,
+                                                            "target": null
+                                                        },
+                                                        "type": "CLIENT_TRANSFORM_SCRIPT"
+                                                    },
+                                                    "sysId": "50776f498343221028f0e5d0deaad39d"
+                                                },
+                                                "operation": null,
+                                                "targetId": "cmdniiirffggaabbwuddffiiiizkahccvco",
+                                                "type": "EVENT"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "bare": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "configAria": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "disabled": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePadding": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "highContrast": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "icon": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "accessibility-outline"
+                                    },
+                                    "landmark": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "size": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "lg"
+                                    },
+                                    "tooltipContent": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Enter a label"
+                                        }
+                                    },
+                                    "variant": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "secondary"
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "definition": {
+                                    "id": "abe7db0526ec8705a0eff03521febfa3",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "text_link_1",
+                                "elementLabel": "Text link 1",
+                                "eventMappings": [
+                                    {
+                                        "eventMappingId": "cmdniddbmeaaccaasddffiiiiapffzffvjb",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "sn_text_link.NOW_TEXT_LINK#CLICKED",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "sn_text_link.NOW_TEXT_LINK#CLICKED",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "x_1488662_gal2.NAV_ITEM_SELECTED_RELAY_b9a2cb258365221028f0e5d0deaad346",
+                                                    "payload": {
+                                                        "script": {
+                                                            "apiVersion": "1.0.0",
+                                                            "controllerElementId": null,
+                                                            "inlineScript": "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n*/\nfunction evaluateEvent({api, event}) {\n\treturn gs.getProperty('glode.servlet.uri');  \n\t\n}",
+                                                            "scriptSysId": null,
+                                                            "target": null
+                                                        },
+                                                        "type": "CLIENT_TRANSFORM_SCRIPT"
+                                                    },
+                                                    "sysId": "50776f498343221028f0e5d0deaad39d"
+                                                },
+                                                "operation": null,
+                                                "targetId": "cmdniddbmfaaccaatddffiiiieeooddacex",
+                                                "type": "EVENT"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "configAria": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "download": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "href": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "https://www.servicenow.com/"
+                                    },
+                                    "iconEnd": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "iconStart": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "label": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Link"
+                                        }
+                                    },
+                                    "landmark": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "opensWindow": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "showTooltip": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "underlined": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "variant": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "primary"
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
                             }
                         ],
                         "layout": {
@@ -157,6 +363,14 @@
                                     },
                                     {
                                         "element_id": "stylized_text_1",
+                                        "styles": {}
+                                    },
+                                    {
+                                        "element_id": "button_iconic_1",
+                                        "styles": {}
+                                    },
+                                    {
+                                        "element_id": "text_link_1",
                                         "styles": {}
                                     }
                                 ],
@@ -760,7 +974,7 @@
         <data>[]</data>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
-        <dispatched_events>44520725d26522108b2034218060d8d5</dispatched_events>
+        <dispatched_events>44520725d26522108b2034218060d8d5,50776f498343221028f0e5d0deaad39d</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -835,6 +1049,9 @@
         <required_translations>[ {
   "message" : "Enter a label",
   "comment" : ""
+}, {
+  "message" : "Link",
+  "comment" : ""
 } ]</required_translations>
         <root_component/>
         <root_component_config>{}</root_component_config>
@@ -846,14 +1063,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-16 16:25:30</sys_created_on>
         <sys_id>b9a2cb258365221028f0e5d0deaad346</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Home2 test</sys_name>
         <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
         <sys_policy/>
         <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
         <sys_update_name>sys_ux_macroponent_b9a2cb258365221028f0e5d0deaad346</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-06 01:58:30</sys_updated_on>
+        <sys_updated_on>2025-07-28 19:33:44</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=b9a2cb258365221028f0e5d0deaad346"/>
 </record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>simular_bullets</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 13:05:41</sys_created_on>
+        <sys_id>5fe0ccbe8347261028f0e5d0deaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>simular_bullets</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_5fe0ccbe8347261028f0e5d0deaad367</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 13:05:41</sys_updated_on>
+        <table>x_1488662_gal2_entregas</table>
+        <ui_policy display_value="read only for non admin v2">2fc0c8be8347261028f0e5d0deaad35b</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=5fe0ccbe8347261028f0e5d0deaad367"/>
+</record_update>

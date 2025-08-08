@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="06cd2078833a221028f0e5d0deaad3ed" extends="task" label="Entregas" max_length="40" name="x_1488662_gal2_entregas" type="collection">
+    <element audit="true" db_object_id="06cd2078833a221028f0e5d0deaad3ed" extends="task" label="Entregas" max_length="40" name="x_1488662_gal2_entregas" type="collection">
         <element label="Dimensao" max_length="32" name="dimensao" reference="x_1488662_gal2_dimensao" type="reference"/>
+        <element label="Available Actions" max_length="150" name="available_actions" type="string"/>
         <element label="AlavancaRef" max_length="32" name="alavancaref" reference="x_1488662_gal2_alavanca" type="reference"/>
         <element label="Codigo Bullet" max_length="32" name="codigo_bullet" reference="x_1488662_gal2_bullet" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.quarter + current.year;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="RTN" max_length="6" name="rtn" type="string" virtual="true"/>
         <element label="Simular Bullets" max_length="4000" name="simular_bullets" reference="x_1488662_gal2_bullet" type="glide_list"/>
         <element label="Dominio" max_length="32" name="dominio" reference="x_1488662_gal2_dominio" type="reference"/>
+        <element label="Year" max_length="4" name="year" type="string"/>
+        <element choice="1" label="Quarter" max_length="40" name="quarter" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Trim 4" sequence="400" value="4T"/>
+                <element inactive_on_update="false" label="Trim 3" sequence="300" value="3T"/>
+                <element inactive_on_update="false" label="Trim 2" sequence="200" value="2T"/>
+                <element inactive_on_update="false" label="Trim 1" sequence="100" value="1T"/>
+            </choice>
+        </element>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.codigo_bullet.alavanca.cod_alavanca;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Alavanca" max_length="32" name="alavanca" type="string" virtual="true"/>
     </element>
 </database>

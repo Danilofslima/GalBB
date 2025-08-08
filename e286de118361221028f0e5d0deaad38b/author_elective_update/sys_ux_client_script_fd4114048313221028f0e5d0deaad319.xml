@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">9d46b8fe834b261028f0e5d0deaad3db</macroponent>
+        <name>apply_filter</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+
+}
+
+function applyFilter ({ api, event, imports }) { 
+    api.setState('parFilters', ({ currentValue }) => {
+         const { payload: { appliedFilters } } = event; 
+return imports['global.mergePARFilters']()(currentValue, appliedFilters); }); 
+}
+]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-06 12:07:42</sys_created_on>
+        <sys_id>fd4114048313221028f0e5d0deaad319</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>apply_filter</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_update_name>sys_ux_client_script_fd4114048313221028f0e5d0deaad319</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-06 12:07:42</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GAL2">e286de118361221028f0e5d0deaad38b</application>
+        <file_path/>
+        <instance_id>d91a66fd3ba056d4677f04e0b5e45aab</instance_id>
+        <instance_name>dev288455</instance_name>
+        <name>sys_ux_client_script_fd4114048313221028f0e5d0deaad319</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Default"&gt;9d46b8fe834b261028f0e5d0deaad3db&lt;/macroponent&gt;&lt;name&gt;apply_filter&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+
+}
+
+function applyFilter ({ api, event, imports }) { 
+    api.setState('parFilters', ({ currentValue }) =&gt; {
+         const { payload: { appliedFilters } } = event; 
+return imports['global.mergePARFilters']()(currentValue, appliedFilters); }); 
+}
+]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-06 12:07:42&lt;/sys_created_on&gt;&lt;sys_id&gt;fd4114048313221028f0e5d0deaad319&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;apply_filter&lt;/sys_name&gt;&lt;sys_package display_value="GAL2" source="x_1488662_gal2"&gt;e286de118361221028f0e5d0deaad38b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GAL2"&gt;e286de118361221028f0e5d0deaad38b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_fd4114048313221028f0e5d0deaad319&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-06 12:07:42&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1610437457</payload_hash>
+        <record_name>apply_filter</record_name>
+        <reverted_from/>
+        <source>07231bbd8329621028f0e5d0deaad370</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-06 12:07:42</sys_created_on>
+        <sys_id>010a18408353221028f0e5d0deaad3f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1987f47b5a50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-06 12:07:42</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>050a1840e0532210f0d145109ebb81f0</update_guid>
+        <update_guid_history>050a1840e0532210f0d145109ebb81f0:1610437457</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-08 14:20:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>1365fad859984b80862763ded9ff6264</sys_id>
+        <sys_metadata>fd4114048313221028f0e5d0deaad319</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>apply_filter</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_scope_delete display_value="">0ed54e15a6bc4d20818b77f6d988e400</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_fd4114048313221028f0e5d0deaad319</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_fd4114048313221028f0e5d0deaad319">010a18408353221028f0e5d0deaad3f1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-08 14:20:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
