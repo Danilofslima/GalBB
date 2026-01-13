@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>UXR_APP_SHELL_DATA_SOURCE_1_REFRESH_RELAY_03bfba5e83d23610fd529630ceaad37a</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>UXR App Shell Data Source 1 REFRESH Relay (rtn v2)</label>
+        <props>[]</props>
+        <required_translations>[ ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-10 04:08:15</sys_created_on>
+        <sys_id>e8dffa5e83d23610fd529630ceaad314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UXR App Shell Data Source 1 REFRESH Relay (rtn v2)</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_update_name>sys_ux_event_e8dffa5e83d23610fd529630ceaad314</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-10 04:08:15</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="DELETE" query="documentkey=e8dffa5e83d23610fd529630ceaad314"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GAL2">e286de118361221028f0e5d0deaad38b</application>
+        <file_path/>
+        <instance_id>9be38f413b35e614c55a348aa4e45a1e</instance_id>
+        <instance_name>dev350246</instance_name>
+        <name>sys_ux_event_e8dffa5e83d23610fd529630ceaad314</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>UXR_APP_SHELL_DATA_SOURCE_1_REFRESH_RELAY_03bfba5e83d23610fd529630ceaad37a</event_name><explicit_api_name/><interfaces/><label>UXR App Shell Data Source 1 REFRESH Relay (rtn v2)</label><props>[]</props><required_translations>[ ]</required_translations><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-10 04:08:15</sys_created_on><sys_id>e8dffa5e83d23610fd529630ceaad314</sys_id><sys_mod_count>0</sys_mod_count><sys_name>UXR App Shell Data Source 1 REFRESH Relay (rtn v2)</sys_name><sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package><sys_policy/><sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope><sys_update_name>sys_ux_event_e8dffa5e83d23610fd529630ceaad314</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-10 04:08:15</sys_updated_on></sys_ux_event><sys_translated_text action="delete_multiple" query="documentkey=e8dffa5e83d23610fd529630ceaad314"/></record_update>]]></payload>
+        <payload_hash>2075166817</payload_hash>
+        <record_name>UXR App Shell Data Source 1 REFRESH Relay (rtn v2)</record_name>
+        <reverted_from/>
+        <source>e6dcaa128361b210fd529630ceaad32a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-10 04:08:15</sys_created_on>
+        <sys_id>dcedc31283563610fd529630ceaad309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ba6172d720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-10 04:08:15</sys_updated_on>
+        <type>UX Event</type>
+        <update_guid>90edc3121b563610dd65b444be753109</update_guid>
+        <update_guid_history>90edc3121b563610dd65b444be753109:2075166817</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-10 04:09:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>1c0792540eca4334a872c564b9ae1c90</sys_id>
+        <sys_metadata>e8dffa5e83d23610fd529630ceaad314</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UXR App Shell Data Source 1 REFRESH Relay (rtn v2)</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_scope_delete display_value="">0ed54e15a6bc4d20818b77f6d988e400</sys_scope_delete>
+        <sys_update_name>sys_ux_event_e8dffa5e83d23610fd529630ceaad314</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_e8dffa5e83d23610fd529630ceaad314">dcedc31283563610fd529630ceaad309</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-10 04:09:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

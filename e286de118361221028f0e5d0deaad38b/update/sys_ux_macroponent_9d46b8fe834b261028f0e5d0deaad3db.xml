@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
-        <bundles/>
+        <bundles>[]</bundles>
         <category>page</category>
         <component_dependencies/>
         <composition>[
@@ -2350,205 +2350,6 @@
                                 },
                                 "slot": null,
                                 "styles": null
-                            },
-                            {
-                                "definition": {
-                                    "id": "226449101138d0dff1abe0e1566c8b2a",
-                                    "type": "MACROPONENT"
-                                },
-                                "elementId": "filter_2",
-                                "elementLabel": "Filter 2",
-                                "eventMappings": [
-                                    {
-                                        "eventMappingId": "cmeccxwhhccsaabbycddffiiiiggqigggaiif",
-                                        "isConfiguration": false,
-                                        "offRowStorageId": null,
-                                        "sourceEventApiName": "sn_component_filte.SN_COMPONENT_FILTER#APPLIED_ITEMS",
-                                        "sourceEventCorrelationId": null,
-                                        "sourceEventDefinition": {
-                                            "apiName": "sn_component_filte.SN_COMPONENT_FILTER#APPLIED_ITEMS",
-                                            "id": null,
-                                            "type": "UXEVENT"
-                                        },
-                                        "sourceEventSysId": null,
-                                        "targets": [
-                                            {
-                                                "broker": null,
-                                                "clientScript": {
-                                                    "payload": {
-                                                        "type": "JSON_LITERAL",
-                                                        "value": {}
-                                                    },
-                                                    "sysId": "314114048313221028f0e5d0deaad31a"
-                                                },
-                                                "conditional": null,
-                                                "declarativeAction": null,
-                                                "event": null,
-                                                "operation": null,
-                                                "targetId": "cmeccxwhhccsaabbydddffiiiinhcbcyyk",
-                                                "type": "CLIENT_SCRIPT"
-                                            }
-                                        ]
-                                    }
-                                ],
-                                "isHidden": {
-                                    "type": "JSON_LITERAL",
-                                    "value": null
-                                },
-                                "preset": null,
-                                "propertyValues": {
-                                    "allowTimeSelection": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "allowedDateRanges": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "booleanLabelFalse": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "booleanLabelTrue": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "cascadeScope": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "cascadingConfig": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "datasource": {
-                                        "type": "JSON_LITERAL",
-                                        "value": {
-                                            "payload": {
-                                                "primaryKey": "sys_id",
-                                                "table": "x_1488662_gal2_dimensao"
-                                            },
-                                            "type": "table"
-                                        }
-                                    },
-                                    "dateFilterView": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "calendar-reldates"
-                                    },
-                                    "defaultBoolean": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "defaultDateEnd": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "defaultDateStart": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "defaultSelectedDateRange": {
-                                        "type": "JSON_LITERAL",
-                                        "value": {
-                                            "range": ""
-                                        }
-                                    },
-                                    "defaultSelectedItems": {
-                                        "type": "JSON_LITERAL",
-                                        "value": [
-                                            {
-                                                "available": true,
-                                                "empty": false,
-                                                "id": "741bde558361221028f0e5d0deaad346",
-                                                "label": "Arquitetura e Segurança",
-                                                "unknown": false
-                                            }
-                                        ]
-                                    },
-                                    "enableClearFilter": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "enableResetToDefault": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "filterComponentType": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "singleselect"
-                                    },
-                                    "filterConfigurations": {
-                                        "binding": {
-                                            "address": [
-                                                "parFilters"
-                                            ]
-                                        },
-                                        "type": "STATE_BINDING"
-                                    },
-                                    "filterElementLayout": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "vertical"
-                                    },
-                                    "filterElementType": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "pill"
-                                    },
-                                    "filterId": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "1j209pjo3vv3uba8hr94"
-                                    },
-                                    "filterName": {
-                                        "type": "TRANSLATION_LITERAL",
-                                        "value": {
-                                            "code": null,
-                                            "comment": "",
-                                            "message": "Dimensão"
-                                        }
-                                    },
-                                    "filterProperties": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "isDashboard": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "isShowSelectedValueInPill": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
-                                    },
-                                    "maxElements": {
-                                        "type": "JSON_LITERAL",
-                                        "value": 500
-                                    },
-                                    "primaryActionLabel": {
-                                        "type": "TRANSLATION_LITERAL",
-                                        "value": {
-                                            "code": null,
-                                            "comment": "",
-                                            "message": "aplicar"
-                                        }
-                                    },
-                                    "sort": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "ASC"
-                                    },
-                                    "targets": {
-                                        "type": "JSON_LITERAL",
-                                        "value": [
-                                            {
-                                                "payload": {
-                                                    "field": "dimensao",
-                                                    "primaryKey": "sys_id",
-                                                    "table": "x_1488662_gal2_bullet"
-                                                },
-                                                "type": "table"
-                                            }
-                                        ]
-                                    }
-                                },
-                                "slot": null,
-                                "styles": null
                             }
                         ],
                         "layout": {
@@ -2557,10 +2358,6 @@
                                 "items": [
                                     {
                                         "element_id": "filter_1",
-                                        "styles": {}
-                                    },
-                                    {
-                                        "element_id": "filter_2",
                                         "styles": {}
                                     }
                                 ],
@@ -3614,22 +3411,13 @@
   "message" : "Apply",
   "comment" : ""
 }, {
-  "message" : "Arquitetura e Segurança",
-  "comment" : ""
-}, {
   "message" : "DevSecOps ",
-  "comment" : ""
-}, {
-  "message" : "Dimensão",
   "comment" : ""
 }, {
   "message" : "Indicador do nível de maturidade atual",
   "comment" : ""
 }, {
   "message" : "Indicador do nível de maturidade projetado",
-  "comment" : ""
-}, {
-  "message" : "aplicar",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -3685,18 +3473,19 @@
         "valueType": "json"
     }
 ]</state_properties>
+        <style_config/>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-02 16:58:45</sys_created_on>
         <sys_id>9d46b8fe834b261028f0e5d0deaad3db</sys_id>
-        <sys_mod_count>96</sys_mod_count>
+        <sys_mod_count>97</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
         <sys_policy/>
         <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
         <sys_update_name>sys_ux_macroponent_9d46b8fe834b261028f0e5d0deaad3db</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-08 18:07:11</sys_updated_on>
+        <sys_updated_on>2026-01-10 03:05:06</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=9d46b8fe834b261028f0e5d0deaad3db"/>
 </record_update>

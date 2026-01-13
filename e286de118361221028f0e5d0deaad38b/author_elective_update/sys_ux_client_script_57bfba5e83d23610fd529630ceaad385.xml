@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">03bfba5e83d23610fd529630ceaad37a</macroponent>
+        <name>dropdown_1/items</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) { 
+  var jsonObj = api.data.bullet_alavanca.output; 
+  var numOfLoc = jsonObj.data.GlideAggregate_Query.length; 
+  var locArr = []; 
+  
+  for (var i = 0; i < numOfLoc; i++) { 
+    var loc = { id: jsonObj.data.GlideAggregate_Query[i].groupBy[0].value, 
+    label: jsonObj.data.GlideAggregate_Query[i].groupBy[0].displayValue 
+    } 
+    locArr.push(loc); 
+    } 
+return JSON.stringify(locArr); } ]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-10 03:06:27</sys_created_on>
+        <sys_id>57bfba5e83d23610fd529630ceaad385</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>dropdown_1/items</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_update_name>sys_ux_client_script_57bfba5e83d23610fd529630ceaad385</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-10 03:06:27</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GAL2">e286de118361221028f0e5d0deaad38b</application>
+        <file_path/>
+        <instance_id>9be38f413b35e614c55a348aa4e45a1e</instance_id>
+        <instance_name>dev350246</instance_name>
+        <name>sys_ux_client_script_57bfba5e83d23610fd529630ceaad385</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Default"&gt;03bfba5e83d23610fd529630ceaad37a&lt;/macroponent&gt;&lt;name&gt;dropdown_1/items&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) { 
+  var jsonObj = api.data.bullet_alavanca.output; 
+  var numOfLoc = jsonObj.data.GlideAggregate_Query.length; 
+  var locArr = []; 
+  
+  for (var i = 0; i &lt; numOfLoc; i++) { 
+    var loc = { id: jsonObj.data.GlideAggregate_Query[i].groupBy[0].value, 
+    label: jsonObj.data.GlideAggregate_Query[i].groupBy[0].displayValue 
+    } 
+    locArr.push(loc); 
+    } 
+return JSON.stringify(locArr); } ]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-10 03:06:27&lt;/sys_created_on&gt;&lt;sys_id&gt;57bfba5e83d23610fd529630ceaad385&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;dropdown_1/items&lt;/sys_name&gt;&lt;sys_package display_value="GAL2" source="x_1488662_gal2"&gt;e286de118361221028f0e5d0deaad38b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GAL2"&gt;e286de118361221028f0e5d0deaad38b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_57bfba5e83d23610fd529630ceaad385&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-10 03:06:27&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1975814393</payload_hash>
+        <record_name>dropdown_1/items</record_name>
+        <reverted_from/>
+        <source>e6dcaa128361b210fd529630ceaad32a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-10 03:06:27</sys_created_on>
+        <sys_id>dfbfba5e83d23610fd529630ceaad3a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ba5de9aa40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-10 03:06:27</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>d3bfba5edad23610f0215a6b9cd7eda0</update_guid>
+        <update_guid_history>d3bfba5edad23610f0215a6b9cd7eda0:1975814393</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-10 03:08:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>2847ae4615d84fd0a5c7f98a4db18840</sys_id>
+        <sys_metadata>57bfba5e83d23610fd529630ceaad385</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dropdown_1/items</sys_name>
+        <sys_package display_value="GAL2" source="x_1488662_gal2">e286de118361221028f0e5d0deaad38b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GAL2">e286de118361221028f0e5d0deaad38b</sys_scope>
+        <sys_scope_delete display_value="">0ed54e15a6bc4d20818b77f6d988e400</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_57bfba5e83d23610fd529630ceaad385</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_57bfba5e83d23610fd529630ceaad385">dfbfba5e83d23610fd529630ceaad3a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-10 03:08:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

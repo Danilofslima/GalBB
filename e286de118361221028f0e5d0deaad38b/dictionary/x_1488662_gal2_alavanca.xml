@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" db_object_id="006712918361221028f0e5d0deaad351" label="Alavanca" max_length="40" name="x_1488662_gal2_alavanca" text_index="true" type="collection">
-        <element label="VFMA Simulado" max_length="40" name="vfma_simulado" type="float"/>
-        <element attributes="scale=2" label="VFMA" max_length="40" name="vfma" type="float"/>
-        <element label="Descricao" max_length="40" name="descricao" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return parseFloat(current).toFixed(2);  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Indice Simulado" max_length="40" name="indice_simulado" type="float"/>
+    <element attributes="hasLabels=true" audit="true" db_object_id="006712918361221028f0e5d0deaad351" label="Alavanca" max_length="40" name="x_1488662_gal2_alavanca" text_index="true" type="collection">
         <element label="Objetivo" max_length="40" name="objetivo" type="string"/>
+        <element label="VFMA Simulado" max_length="40" name="vfma_simulado" type="float"/>
+        <element label="Score" max_length="15" name="score" type="percent_complete"/>
+        <element attributes="scale=2" label="VFMA" max_length="40" name="vfma" type="float"/>
         <element display="true" label="COD Alavanca" max_length="40" name="cod_alavanca" type="string"/>
+        <element label="Descricao" max_length="40" name="descricao" type="string"/>
+        <element label="tag Color" max_length="40" name="tag_color" type="color"/>
+        <element label="tag Icon" max_length="100" name="tag_icon" type="icon"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;// Add your code here&#10;&#9;return parseFloat(current).toFixed(2);  // return the calculated value&#10;&#10;})(current);" label="Indice Simulado" max_length="40" name="indice_simulado" type="float"/>
     </element>
 </database>
